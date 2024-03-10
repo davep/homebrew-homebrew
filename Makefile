@@ -8,4 +8,8 @@ oshit: clean
 	pipenv install oshit
 	pipenv run poet -f oshit > Formula/oshit.rb
 
+tinboard: clean
+	pipenv install tinboard
+	pipenv run poet -f tinboard > Formula/tinboard.rb
+
 ### Makefile ends here

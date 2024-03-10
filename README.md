@@ -14,5 +14,6 @@ will also document this process in their own README.
 Packages available from here include:
 
 - [OSHit](https://github.com/davep/oshit)
+- [Tinboard](https://github.com/davep/tinboard)
 
 [//]: # (README.md ends here)
