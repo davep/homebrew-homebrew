@@ -14,6 +14,7 @@ will also document this process in their own README.
 Packages available from here include:
 
 - [OSHit](https://github.com/davep/oshit)
+- [textual-mandelbrot](https://github.com/davep/textual-mandelbrot)
 - [Tinboard](https://github.com/davep/tinboard)
 
 [//]: # (README.md ends here)
