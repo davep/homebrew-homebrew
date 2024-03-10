@@ -9,6 +9,11 @@ oshit: clean
 	pipenv run poet -f oshit > Formula/oshit.rb
 	sed -i '' 's/Shiny new formula/OSHit - Get your hit of the Orange Site in the terminal/' Formula/oshit.rb
 
+quizzical: clean
+	pipenv install quizzical
+	pipenv run poet -f quizzical > Formula/quizzical.rb
+	sed -i '' 's/Shiny new formula/A terminal-based trivia quiz/' Formula/quizzical.rb
+
 textual-mandelbrot: clean
 	pipenv install textual-mandelbrot
 	pipenv run poet -f textual-mandelbrot > Formula/textual-mandelbrot.rb
