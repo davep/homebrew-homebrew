@@ -14,6 +14,11 @@ quizzical: clean
 	pipenv run poet -f quizzical > Formula/quizzical.rb
 	sed -i '' 's/Shiny new formula/A terminal-based trivia quiz/' Formula/quizzical.rb
 
+tdim: clean
+	pipenv install tdim
+	pipenv run poet -f tdim > Formula/tdim.rb
+	sed -i '' 's/A quick and dirty terminal dimension checker/seeker/' Formula/tdim.rb
+
 textual-mandelbrot: clean
 	pipenv install textual-mandelbrot
 	pipenv run poet -f textual-mandelbrot > Formula/textual-mandelbrot.rb

@@ -15,6 +15,7 @@ Packages available from here include:
 
 - [OSHit](https://github.com/davep/oshit)
 - [Quizzical](https://github.com/davep/quizzical)
+- [tdim](https://github.com/davep/tdim)
 - [textual-mandelbrot](https://github.com/davep/textual-mandelbrot)
 - [Tinboard](https://github.com/davep/tinboard)
 
