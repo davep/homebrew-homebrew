@@ -18,5 +18,6 @@ Packages available from here include:
 - [tdim](https://github.com/davep/tdim)
 - [textual-mandelbrot](https://github.com/davep/textual-mandelbrot)
 - [Tinboard](https://github.com/davep/tinboard)
+- [visual-selection](https://github.com/davep/visual-selection)
 
 [//]: # (README.md ends here)

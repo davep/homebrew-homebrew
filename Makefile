@@ -29,4 +29,9 @@ tinboard: clean
 	pipenv run poet -f tinboard > Formula/tinboard.rb
 	sed -i '' 's/Shiny new formula/A terminal-based client for pinboard.in/' Formula/tinboard.rb
 
+visual-selection: clean
+	pipenv install visual-selection
+	pipenv run poet -f visual-selection > Formula/visual-selection.rb
+	sed -i '' 's/Shiny new formula/A terminal-based visualisation of natural selection with mutation./' Formula/visual-selection.rb
+
 ### Makefile ends here
