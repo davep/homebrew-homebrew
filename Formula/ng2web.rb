@@ -19,8 +19,13 @@ class Ng2web < Formula
   end
 
   resource "ngdb" do
-    url "https://files.pythonhosted.org/packages/e3/30/bc8a8562298481c62bcdc372230c4fbbe41e1e98a4297714ce0399432037/ngdb-0.6.1.tar.gz"
-    sha256 "1d57fb9fb105addd00a179e5c50b69855279eeaf26a8b45ffcb0c37e197ea52a"
+    url "https://files.pythonhosted.org/packages/ae/f8/e6c3bb9ac5b456ef75180e5b504492c6dcb65080c96fb65c36fbdf5ef764/ngdb-0.6.2.tar.gz"
+    sha256 "f1dcfe47be89e511ef355193ed9d71c28fea2399d03ae40955f25698a7e3e183"
+  end
+
+  resource "typing-extensions" do
+    url "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz"
+    sha256 "b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb"
   end
 
   def install
