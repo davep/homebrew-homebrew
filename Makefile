@@ -7,6 +7,12 @@ clean:
 	pipenv --python 3.12
 	pipenv install --dev homebrew-pypi-poet
 
+.PHONY: ng2web
+ng2web: clean
+	pipenv install ng2web
+	pipenv run poet -f ng2web > Formula/ng2web.rb
+	sed -i '' 's/Shiny new formula/Command line tool for converting Norton Guide Database files to HTML/' Formula/ng2web.rb
+
 .PHONY: oshit
 oshit: clean
 	pipenv install oshit
