@@ -3,8 +3,8 @@ class Ng2web < Formula
 
   desc "Command line tool for converting Norton Guide Database files to HTML"
   homepage "https://github.com/davep/ng2web"
-  url "https://files.pythonhosted.org/packages/6a/e5/f5949e925c61a6a5abaea4404c088766c61b89d21d69209291b503d795b6/ng2web-0.1.0.tar.gz"
-  sha256 "d7429fd87159d60436b1fdf5f4202fbe60b211f0587d307da44f02f6cf0e1066"
+  url "https://files.pythonhosted.org/packages/78/5b/5b0229a24d08859adeccdd698b39051e21b50bc1d0fd9793162425e68d34/ng2web-0.1.1.tar.gz"
+  sha256 "c70f29704736eb6c60c1fa8ac007d2c33b85c187da76411481811d42259d3999"
 
   depends_on "python3"
 
@@ -19,8 +19,8 @@ class Ng2web < Formula
   end
 
   resource "ngdb" do
-    url "https://files.pythonhosted.org/packages/13/a1/5c516788ce1aa3d68e2bd4fc98b2e9a4489dc7c1bc343f18b82992667020/ngdb-0.6.0.tar.gz"
-    sha256 "e5c7376354057d6b6d242e6c4aaf12bb4c029db64d6672f2563949eb18db9b5a"
+    url "https://files.pythonhosted.org/packages/e3/30/bc8a8562298481c62bcdc372230c4fbbe41e1e98a4297714ce0399432037/ngdb-0.6.1.tar.gz"
+    sha256 "1d57fb9fb105addd00a179e5c50b69855279eeaf26a8b45ffcb0c37e197ea52a"
   end
 
   def install
