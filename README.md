@@ -13,6 +13,7 @@ will also document this process in their own README.
 
 Packages available from here include:
 
+- [ng2web](https://github.com/davep/ng2web)
 - [OSHit](https://github.com/davep/oshit)
 - [Quizzical](https://github.com/davep/quizzical)
 - [tdim](https://github.com/davep/tdim)
