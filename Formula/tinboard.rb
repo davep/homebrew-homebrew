@@ -3,8 +3,8 @@ class Tinboard < Formula
 
   desc "A terminal-based client for pinboard.in"
   homepage "https://github.com/davep/tinboard"
-  url "https://files.pythonhosted.org/packages/5a/52/d3cfec18e4a050194744fd899ec2f8f8ede2a6612374031be411083e637a/tinboard-0.10.1.tar.gz"
-  sha256 "85e9a95c59175345f2e4b78577ba0df8f02825db9f7bd13555295b079fbf4616"
+  url "https://files.pythonhosted.org/packages/7b/0d/161c1168fe2e73330a2c975d069de293ea58e671fc83c3de68b076f94700/tinboard-0.11.0.tar.gz"
+  sha256 "6568329d6ae95c2f4d486dab33b93f4225e08290924f7018972ad5cc28115a4e"
 
   depends_on "python3"
 
@@ -24,8 +24,8 @@ class Tinboard < Formula
   end
 
   resource "httpcore" do
-    url "https://files.pythonhosted.org/packages/03/9d/2055e6b65592d3a485a1141761ba7047674bbe085cebac0988b30e93c9e6/httpcore-1.0.4.tar.gz"
-    sha256 "cb2839ccfcba0d2d3c1131d3c3e26dfc327326fbe7a5dc0dbfe9f6c9151bb022"
+    url "https://files.pythonhosted.org/packages/17/b0/5e8b8674f8d203335a62fdfcfa0d11ebe09e23613c3391033cbba35f7926/httpcore-1.0.5.tar.gz"
+    sha256 "34a38e2f9291467ee3b44e89dd52615370e152954ba21721378a87b2960f7a61"
   end
 
   resource "httpx" do
@@ -89,13 +89,13 @@ class Tinboard < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/bb/ce/b224ccc05260871da8df640e7cd8ca0a5e38721fddb6733650195402841e/textual-0.52.1.tar.gz"
-    sha256 "4232e5c2b423ed7c63baaeb6030355e14e1de1b9df096c9655b68a1e60e4de5f"
+    url "https://files.pythonhosted.org/packages/eb/cc/dd40e557c2060bb7f680dd13fc28f6027138dc749ae761591fb68f2ab621/textual-0.56.3.tar.gz"
+    sha256 "9549a005a31658cd4dce7f73a247bc699b6173c74afc52c5dfdddb0afd4a67e2"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz"
-    sha256 "b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb"
+    url "https://files.pythonhosted.org/packages/f6/f3/b827b3ab53b4e3d8513914586dcca61c355fa2ce8252dea4da56e67bf8f2/typing_extensions-4.11.0.tar.gz"
+    sha256 "83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"
   end
 
   resource "uc-micro-py" do
