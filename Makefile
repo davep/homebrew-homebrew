@@ -37,6 +37,12 @@ textual-mandelbrot: clean
 	pipenv run poet -f $@ > Formula/$@.rb
 	sed -i '' 's/Shiny new formula/A Textual widget and terminal application for drawing and exploring Mandelbrot sets/' Formula/$@.rb
 
+.PHONY: textual-query-sandbox
+textual-query-sandbox: clean
+	pipenv install $@
+	pipenv run poet -f $@ > Formula/$@.rb
+	sed -i '' 's/Shiny new formula/A simple tool for testing and practicing Textual DOM queries/' Formula/$@.rb
+
 .PHONY: tinboard
 tinboard: clean
 	pipenv install $@

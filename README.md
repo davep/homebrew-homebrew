@@ -18,6 +18,7 @@ Packages available from here include:
 - [Quizzical](https://github.com/davep/quizzical)
 - [tdim](https://github.com/davep/tdim)
 - [textual-mandelbrot](https://github.com/davep/textual-mandelbrot)
+- [textual-query-sandbox](https://github.com/davep/textual-query-sandbox)
 - [Tinboard](https://github.com/davep/tinboard)
 - [visual-selection](https://github.com/davep/visual-selection)
 
