@@ -7,6 +7,12 @@ clean:
 	pipenv --python 3.12
 	pipenv install --dev homebrew-pypi-poet
 
+.PHONY: evolve-words
+evolve-words: clean
+	pipenv install $@
+	pipenv run poet -f $@ > Formula/$@.rb
+	sed -i '' 's/Shiny new formula/A terminal-based visualisation of evolution through mutation and natural selection./' Formula/$@.rb
+
 .PHONY: ng2web
 ng2web: clean
 	pipenv install $@
