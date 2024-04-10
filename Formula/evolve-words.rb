@@ -3,8 +3,8 @@ class EvolveWords < Formula
 
   desc "A terminal-based visualisation of evolution through mutation and natural selection."
   homepage "https://github.com/davep/evolve-words"
-  url "https://files.pythonhosted.org/packages/18/89/402903c720d9f65a5fe32225502b1eae11fe6c3896ac4586446d4c894d94/evolve-words-0.2.0.tar.gz"
-  sha256 "9b1ff66aaa713c94a52d3d1ccab669f915adbecf521e1b42923903bc79555b88"
+  url "https://files.pythonhosted.org/packages/ab/ac/07ff5cae7f3e8d7cdc8d4e7c3c6cdb959bf730a8c2ba88ed504269af3d49/evolve-words-0.2.1.tar.gz"
+  sha256 "97368d0b12f7cdb921274753d56e0ac60a435afbd0844de3dfb135bc5bbafe4c"
 
   depends_on "python3"
 
