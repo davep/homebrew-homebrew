@@ -30,6 +30,7 @@ pispy: clean
 	pipenv install pispy-client
 	pipenv run poet -f pispy-client > Formula/$@.rb
 	sed -i '' 's/Shiny new formula/OSHit - Get your hit of the Orange Site in the terminal/' Formula/$@.rb
+	sed -i '' 's/PispyClient/Pispy/' Formula/$@.rb
 
 .PHONY: quizzical
 quizzical: clean
