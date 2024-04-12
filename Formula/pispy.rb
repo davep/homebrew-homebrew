@@ -1,4 +1,4 @@
-class PispyClient < Formula
+class Pispy < Formula
   include Language::Python::Virtualenv
 
   desc "OSHit - Get your hit of the Orange Site in the terminal"
