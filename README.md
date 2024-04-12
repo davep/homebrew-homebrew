@@ -15,6 +15,7 @@ Packages available from here include:
 
 - [evolve-words](https://github.com/davep/evolve-words)
 - [ng2web](https://github.com/davep/ng2web)
+- [PISpy](https://github.com/davep/pispy)
 - [OSHit](https://github.com/davep/oshit)
 - [Quizzical](https://github.com/davep/quizzical)
 - [tdim](https://github.com/davep/tdim)

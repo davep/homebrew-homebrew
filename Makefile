@@ -25,6 +25,12 @@ oshit: clean
 	pipenv run poet -f $@ > Formula/$@.rb
 	sed -i '' 's/Shiny new formula/OSHit - Get your hit of the Orange Site in the terminal/' Formula/$@.rb
 
+.PHONY: pispy
+pispy: clean
+	pipenv install pispy-client
+	pipenv run poet -f pispy-client > Formula/$@.rb
+	sed -i '' 's/Shiny new formula/OSHit - Get your hit of the Orange Site in the terminal/' Formula/$@.rb
+
 .PHONY: quizzical
 quizzical: clean
 	pipenv install $@
