@@ -1,7 +1,7 @@
 class Pispy < Formula
   include Language::Python::Virtualenv
 
-  desc "OSHit - Get your hit of the Orange Site in the terminal"
+  desc "A terminal-based tool for looking up stuff in PyPI"
   homepage "https://github.com/davep/pispy"
   url "https://files.pythonhosted.org/packages/d2/8f/63bb4d645010414e21a2e5d0199ebfa6c821daac99d6c2a8ca775c3c132a/pispy-client-0.5.0.tar.gz"
   sha256 "d6599987d9cc510c5b4efdd88b60b4be4335e01622d5d8f57d47acef6192ff5c"
