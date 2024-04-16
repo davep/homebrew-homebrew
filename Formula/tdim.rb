@@ -3,8 +3,8 @@ class Tdim < Formula
 
   desc "Shiny new formula"
   homepage "https://github.com/davep/tdim"
-  url "https://files.pythonhosted.org/packages/77/ca/4d58b6558c8d0de462f623fb1021d9ae756d193a93ea10199b56f59adc12/tdim-0.2.9.tar.gz"
-  sha256 "5d5739be6b0f27ee113504a5bb2d0a3a63615db824cb26c9db4ec81bc409e573"
+  url "https://files.pythonhosted.org/packages/3f/80/eacd95f4b42182daade61b2f0ad607868c7db1aab54852e5dc8d39f1c0f4/tdim-0.3.0.tar.gz"
+  sha256 "070c565894049a223ef087edfc2ddaae7c76b7ef62efdd221955a2858989facc"
 
   depends_on "python3"
 
@@ -39,13 +39,13 @@ class Tdim < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/bb/ce/b224ccc05260871da8df640e7cd8ca0a5e38721fddb6733650195402841e/textual-0.52.1.tar.gz"
-    sha256 "4232e5c2b423ed7c63baaeb6030355e14e1de1b9df096c9655b68a1e60e4de5f"
+    url "https://files.pythonhosted.org/packages/35/30/2f51da751405bc0fbce8c8dfaf8ee7e9c4941ea28c5c868c2aebfc2748ba/textual-0.56.4.tar.gz"
+    sha256 "6f86ae5b4fd750bc48881c941e1a86f7a188c24a862122002e3ac38cd288ef47"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz"
-    sha256 "b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb"
+    url "https://files.pythonhosted.org/packages/f6/f3/b827b3ab53b4e3d8513914586dcca61c355fa2ce8252dea4da56e67bf8f2/typing_extensions-4.11.0.tar.gz"
+    sha256 "83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"
   end
 
   resource "uc-micro-py" do
