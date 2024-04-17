@@ -3,8 +3,8 @@ class Pispy < Formula
 
   desc "A terminal-based tool for looking up stuff in PyPI"
   homepage "https://github.com/davep/pispy"
-  url "https://files.pythonhosted.org/packages/d2/8f/63bb4d645010414e21a2e5d0199ebfa6c821daac99d6c2a8ca775c3c132a/pispy-client-0.5.0.tar.gz"
-  sha256 "d6599987d9cc510c5b4efdd88b60b4be4335e01622d5d8f57d47acef6192ff5c"
+  url "https://files.pythonhosted.org/packages/3b/70/d6f52012cc0a2225ffeaec4b8e76f76f72ffc4d2539dbc80f608a019e529/pispy_client-0.6.0.tar.gz"
+  sha256 "4e5628fab9544e2cd1fcbfce2143a7ec349be78c29820c0eaeb2a172299f77f9"
 
   depends_on "python3"
 
