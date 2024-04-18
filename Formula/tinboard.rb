@@ -3,8 +3,8 @@ class Tinboard < Formula
 
   desc "A terminal-based client for pinboard.in"
   homepage "https://github.com/davep/tinboard"
-  url "https://files.pythonhosted.org/packages/aa/7b/c289e8bf5afd803e5fdf01e44b5b068f68ceb8aa606a363b7124d4481d2f/tinboard-0.11.1.tar.gz"
-  sha256 "60130961fdd3049b54b60154edf02c8e00d7e046094ec37ea3b2653fe1d14d1d"
+  url "https://files.pythonhosted.org/packages/43/7f/cc51dc17ee69cee76a715b87a82c1ff134e258a95627f12d0ec1dd8670af/tinboard-0.12.0.tar.gz"
+  sha256 "8bb5857f8fa501e958735bd8ff6c5ff1384634e70db38b4e877214a3749a46f4"
 
   depends_on "python3"
 
@@ -39,8 +39,8 @@ class Tinboard < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz"
-    sha256 "9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca"
+    url "https://files.pythonhosted.org/packages/21/ed/f86a79a07470cb07819390452f178b3bef1d375f2ec021ecfc709fc7cf07/idna-3.7.tar.gz"
+    sha256 "028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc"
   end
 
   resource "linkify-it-py" do
