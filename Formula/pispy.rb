@@ -3,8 +3,8 @@ class Pispy < Formula
 
   desc "A terminal-based tool for looking up stuff in PyPI"
   homepage "https://github.com/davep/pispy"
-  url "https://files.pythonhosted.org/packages/3b/70/d6f52012cc0a2225ffeaec4b8e76f76f72ffc4d2539dbc80f608a019e529/pispy_client-0.6.0.tar.gz"
-  sha256 "4e5628fab9544e2cd1fcbfce2143a7ec349be78c29820c0eaeb2a172299f77f9"
+  url "https://files.pythonhosted.org/packages/f9/9f/33dd7fb7c0cc3a5781a362ebcd28c4d1185c3217b1117465d4c4014c9a06/pispy_client-0.7.0.tar.gz"
+  sha256 "8c2ec418ca1a6a83c34bf25ed7fa927533786aa044f86c17f5e92342afa74b2b"
 
   depends_on "python3"
 
@@ -58,6 +58,11 @@ class Pispy < Formula
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
   end
 
+  resource "packaging" do
+    url "https://files.pythonhosted.org/packages/ee/b5/b43a27ac7472e1818c4bafd44430e69605baefe1f34440593e0332ec8b4d/packaging-24.0.tar.gz"
+    sha256 "eb82c5e3e56209074766e6885bb04b8c38a0c015d0a30036ebe7ece34c9989e9"
+  end
+
   resource "Pygments" do
     url "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz"
     sha256 "da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367"
@@ -74,8 +79,8 @@ class Pispy < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/35/30/2f51da751405bc0fbce8c8dfaf8ee7e9c4941ea28c5c868c2aebfc2748ba/textual-0.56.4.tar.gz"
-    sha256 "6f86ae5b4fd750bc48881c941e1a86f7a188c24a862122002e3ac38cd288ef47"
+    url "https://files.pythonhosted.org/packages/f5/ad/02ace5f4cc7dcb3c0d1c596e4cbf0e90d56322979481eeadfbee62b8c373/textual-0.57.1.tar.gz"
+    sha256 "91029212b28c0cc73adad1e8b9fcda0b53947d4d81a1e8df4efbcb1346638744"
   end
 
   resource "typing-extensions" do
