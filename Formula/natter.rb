@@ -3,8 +3,8 @@ class Natter < Formula
 
   desc "An experimental ollama client for the terminal"
   homepage "https://github.com/davep/natter"
-  url "https://files.pythonhosted.org/packages/4a/d9/6d80d8435e9f7accb722dbd7d2c637c8bc8c8953c61d3952e5715a4bd026/natter-0.0.1.tar.gz"
-  sha256 "1f3f621ce991e4c95f3e7284269173477dbea727e7e0cc8ae6d718d2a43d989a"
+  url "https://files.pythonhosted.org/packages/e9/b1/7e5af8e97a0c4a1ed62bcbe07e9fbf970d5e2dbccd7f7ed79a2f7ef07cde/natter-0.0.2.tar.gz"
+  sha256 "b5379d9f0b3901b4fe7ca7f840c5075ff9be78b87e3541a3afcda2e14404599e"
 
   depends_on "python3"
 
@@ -59,8 +59,8 @@ class Natter < Formula
   end
 
   resource "ollama" do
-    url "https://files.pythonhosted.org/packages/c4/06/dfecee276290268c88436588b91812fb453cdcec68bdc30f98a1d366300b/ollama-0.1.8.tar.gz"
-    sha256 "148a0ff1ce87c904ad8d137f14dda6919f833e83c61457e5e2d449507c43a1bd"
+    url "https://files.pythonhosted.org/packages/48/88/3b7094ddfc38a350a7fa8cce88ef584ca08cf127c9f5e4ce9e6504cd3b61/ollama-0.1.9.tar.gz"
+    sha256 "f64484b280db0fa03fb899580d8a3a85af3787fd2a85b67669b743e313b3faf1"
   end
 
   resource "Pygments" do
@@ -83,6 +83,11 @@ class Natter < Formula
     sha256 "5c8c3322308e2b932c4550b0ae9f70daebc39716de3f920831cda96d1640b383"
   end
 
+  resource "textual-fspicker" do
+    url "https://files.pythonhosted.org/packages/e5/c4/e8129359ab36c7d34efab08182a43b27b43712fa1354476fa3eb3149de82/textual_fspicker-0.0.11.tar.gz"
+    sha256 "052304e94b9d4f6af75bf338a8d1a34b7a12f511d018eba2a4a3151159df4db5"
+  end
+
   resource "typing-extensions" do
     url "https://files.pythonhosted.org/packages/f6/f3/b827b3ab53b4e3d8513914586dcca61c355fa2ce8252dea4da56e67bf8f2/typing_extensions-4.11.0.tar.gz"
     sha256 "83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"
@@ -91,6 +96,11 @@ class Natter < Formula
   resource "uc-micro-py" do
     url "https://files.pythonhosted.org/packages/91/7a/146a99696aee0609e3712f2b44c6274566bc368dfe8375191278045186b8/uc-micro-py-1.0.3.tar.gz"
     sha256 "d321b92cff673ec58027c04015fcaa8bb1e005478643ff4a500882eaab88c48a"
+  end
+
+  resource "xdg-base-dirs" do
+    url "https://files.pythonhosted.org/packages/98/58/bf6650c4eba25375f923703b645f8b245ecee75c722ded29189d8b515167/xdg_base_dirs-6.0.1.tar.gz"
+    sha256 "b4c8f4ba72d1286018b25eea374ec6fbf4fddda3d4137edf50de95de53e195a6"
   end
 
   def install
