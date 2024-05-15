@@ -3,8 +3,8 @@ class Tinboard < Formula
 
   desc "A terminal-based client for pinboard.in"
   homepage "https://github.com/davep/tinboard"
-  url "https://files.pythonhosted.org/packages/87/aa/dcb0c52baced639cac6a2cafc9438db5721390b5b5094ee7e5beee5ea6ec/tinboard-0.13.0.tar.gz"
-  sha256 "c4c052fd0d45140163446c8c88d8afe232c2d27f2e8e8315b31dd5ce4d213052"
+  url "https://files.pythonhosted.org/packages/36/81/3fa30daf075fa9278e8ae3b6f7c69e201949ed4f6ed7e2c65f6a6f2f444f/tinboard-0.14.0.tar.gz"
+  sha256 "19e9bca86cde855bf96865526024c608597228c9b0ec518cf37fe286dab836ef"
 
   depends_on "python3"
 
@@ -54,8 +54,8 @@ class Tinboard < Formula
   end
 
   resource "mdit-py-plugins" do
-    url "https://files.pythonhosted.org/packages/b4/db/61960d68d5c39ff0dd48cb799a39ae4e297f6e9b96bf2f8da29d897fba0c/mdit_py_plugins-0.4.0.tar.gz"
-    sha256 "d8ab27e9aed6c38aa716819fedfde15ca275715955f8a185a8e1cf90fb1d2c1b"
+    url "https://files.pythonhosted.org/packages/00/6c/79c52651b22b64dba5c7bbabd7a294cc410bfb2353250dc8ade44d7d8ad8/mdit_py_plugins-0.4.1.tar.gz"
+    sha256 "834b8ac23d1cd60cec703646ffd22ae97b7955a6d596eb1d304be1e251ae499c"
   end
 
   resource "mdurl" do
@@ -64,8 +64,8 @@ class Tinboard < Formula
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz"
-    sha256 "da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367"
+    url "https://files.pythonhosted.org/packages/8e/62/8336eff65bcbc8e4cb5d05b55faf041285951b6e80f33e2bff2024788f31/pygments-2.18.0.tar.gz"
+    sha256 "786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199"
   end
 
   resource "pyperclip" do
@@ -89,8 +89,8 @@ class Tinboard < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/11/8d/70bc2b5ac7c0860678daa915f39a8907664c1d1d93e6b497df4fff752353/textual-0.58.1.tar.gz"
-    sha256 "3a01be0b583f2bce38b8e9786b75ed33dddc816bba502d8e7a9ca3ca2ead3957"
+    url "https://files.pythonhosted.org/packages/f6/ba/931d90841ca25726bc92035e67d2ee81a341f6ff280d478ebb49d4af9d0f/textual-0.60.0.tar.gz"
+    sha256 "5a9117d6fd48d105ba9671fe6eca8197d607fd2d20fe5405681621fc34b17cfe"
   end
 
   resource "typing-extensions" do
