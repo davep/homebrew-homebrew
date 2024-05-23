@@ -3,8 +3,8 @@ class Tinboard < Formula
 
   desc "A terminal-based client for pinboard.in"
   homepage "https://github.com/davep/tinboard"
-  url "https://files.pythonhosted.org/packages/36/81/3fa30daf075fa9278e8ae3b6f7c69e201949ed4f6ed7e2c65f6a6f2f444f/tinboard-0.14.0.tar.gz"
-  sha256 "19e9bca86cde855bf96865526024c608597228c9b0ec518cf37fe286dab836ef"
+  url "https://files.pythonhosted.org/packages/00/9f/2687e85766bf20a2ed85344438ecc8ae32d7d0ed3a0fdbcb894aee2da48d/tinboard-0.14.1.tar.gz"
+  sha256 "88ffa214aa280ec60e2aaa3811d24b72f14a2989d003a7a272fc91f324909384"
 
   depends_on "python3"
 
@@ -89,8 +89,8 @@ class Tinboard < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/f6/ba/931d90841ca25726bc92035e67d2ee81a341f6ff280d478ebb49d4af9d0f/textual-0.60.0.tar.gz"
-    sha256 "5a9117d6fd48d105ba9671fe6eca8197d607fd2d20fe5405681621fc34b17cfe"
+    url "https://files.pythonhosted.org/packages/98/47/a89fe6d3981a9730a9af018b1e6e70f93f1615b035c951e3e15d06e1852c/textual-0.60.1.tar.gz"
+    sha256 "258565923f55487876b48b53c1104ad660355e1853af60381ef6b10b3ed3723e"
   end
 
   resource "typing-extensions" do
