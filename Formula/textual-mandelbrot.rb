@@ -3,8 +3,8 @@ class TextualMandelbrot < Formula
 
   desc "A Textual widget and terminal application for drawing and exploring Mandelbrot sets"
   homepage "https://github.com/davep/textual-mandelbrot"
-  url "https://files.pythonhosted.org/packages/d7/56/434144c3bc2f2ecd7d16955a3df706caf85dd8f3632e6574164e43ac89fc/textual-mandelbrot-0.8.0.tar.gz"
-  sha256 "93d31cc7810176c292022c1b77aaa9e3481831cc1b5659303fc69e4a3e6e0b1f"
+  url "https://files.pythonhosted.org/packages/2a/bf/88c8fa18526d9749f23bbf754a65f9f902db018aa8049208656d0fa4c4a6/textual_mandelbrot-0.8.1.tar.gz"
+  sha256 "a896f2535ee39d58caa5491b639dd14fbdbc176c4e072266283396fa2ebc273b"
 
   depends_on "python3"
 
@@ -19,8 +19,8 @@ class TextualMandelbrot < Formula
   end
 
   resource "mdit-py-plugins" do
-    url "https://files.pythonhosted.org/packages/b4/db/61960d68d5c39ff0dd48cb799a39ae4e297f6e9b96bf2f8da29d897fba0c/mdit_py_plugins-0.4.0.tar.gz"
-    sha256 "d8ab27e9aed6c38aa716819fedfde15ca275715955f8a185a8e1cf90fb1d2c1b"
+    url "https://files.pythonhosted.org/packages/00/6c/79c52651b22b64dba5c7bbabd7a294cc410bfb2353250dc8ade44d7d8ad8/mdit_py_plugins-0.4.1.tar.gz"
+    sha256 "834b8ac23d1cd60cec703646ffd22ae97b7955a6d596eb1d304be1e251ae499c"
   end
 
   resource "mdurl" do
@@ -29,8 +29,8 @@ class TextualMandelbrot < Formula
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz"
-    sha256 "da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367"
+    url "https://files.pythonhosted.org/packages/8e/62/8336eff65bcbc8e4cb5d05b55faf041285951b6e80f33e2bff2024788f31/pygments-2.18.0.tar.gz"
+    sha256 "786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199"
   end
 
   resource "rich" do
@@ -39,8 +39,8 @@ class TextualMandelbrot < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/bb/ce/b224ccc05260871da8df640e7cd8ca0a5e38721fddb6733650195402841e/textual-0.52.1.tar.gz"
-    sha256 "4232e5c2b423ed7c63baaeb6030355e14e1de1b9df096c9655b68a1e60e4de5f"
+    url "https://files.pythonhosted.org/packages/98/47/a89fe6d3981a9730a9af018b1e6e70f93f1615b035c951e3e15d06e1852c/textual-0.60.1.tar.gz"
+    sha256 "258565923f55487876b48b53c1104ad660355e1853af60381ef6b10b3ed3723e"
   end
 
   resource "textual-canvas" do
@@ -49,8 +49,8 @@ class TextualMandelbrot < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz"
-    sha256 "b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb"
+    url "https://files.pythonhosted.org/packages/ce/6a/aa0a40b0889ec2eb81a02ee0daa6a34c6697a605cf62e6e857eead9e4f85/typing_extensions-4.12.0.tar.gz"
+    sha256 "8cbcdc8606ebcb0d95453ad7dc5065e6237b6aa230a31e81d0f440c30fed5fd8"
   end
 
   resource "uc-micro-py" do
