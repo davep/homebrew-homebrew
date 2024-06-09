@@ -3,19 +3,19 @@ class Oshit < Formula
 
   desc "OSHit - Get your hit of the Orange Site in the terminal"
   homepage "https://github.com/davep/oshit"
-  url "https://files.pythonhosted.org/packages/a2/dc/596298362c486f978649c06cec85b7af3f7821fe59c7ce01532d04e32b23/oshit-0.11.2.tar.gz"
-  sha256 "95c2ba9b33116293e55f1eba1bc1a0cfde1e94acb2def83c59e9603b186a0566"
+  url "https://files.pythonhosted.org/packages/6c/ae/2b253419c5592dbe94daac038d55e7ec16ad2133b81149dd017fbad0c702/oshit-0.12.0.tar.gz"
+  sha256 "bfdd4475b6d6ab865e0cca20f8e1b1a6d14316699f2f4cb8bb0dc5947e491592"
 
   depends_on "python3"
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz"
-    sha256 "f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6"
+    url "https://files.pythonhosted.org/packages/e6/e3/c4c8d473d6780ef1853d630d581f70d655b4f8d7553c6997958c283039a2/anyio-4.4.0.tar.gz"
+    sha256 "5aadc6a1bbb7cdb0bede386cac5e2940f5e2ff3aa20277e991cf028e0585ce94"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz"
-    sha256 "0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f"
+    url "https://files.pythonhosted.org/packages/07/b3/e02f4f397c81077ffc52a538e0aec464016f1860c472ed33bd2a1d220cc5/certifi-2024.6.2.tar.gz"
+    sha256 "3cd43f1c6fa7dedc5899d69d3ad0398fd018ad1a17fba83ddaf78aa46c747516"
   end
 
   resource "h11" do
@@ -79,13 +79,13 @@ class Oshit < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/98/47/a89fe6d3981a9730a9af018b1e6e70f93f1615b035c951e3e15d06e1852c/textual-0.60.1.tar.gz"
-    sha256 "258565923f55487876b48b53c1104ad660355e1853af60381ef6b10b3ed3723e"
+    url "https://files.pythonhosted.org/packages/38/f1/33842ecf1045bcb2ebf14d30b8b9c2c6e8b7c78327d457c8017ae73feb64/textual-0.66.0.tar.gz"
+    sha256 "f2649a4a487bf939d2c78e10c06e3b9ce8562b978fbb07ba2ec8507006ea7aeb"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/ce/6a/aa0a40b0889ec2eb81a02ee0daa6a34c6697a605cf62e6e857eead9e4f85/typing_extensions-4.12.0.tar.gz"
-    sha256 "8cbcdc8606ebcb0d95453ad7dc5065e6237b6aa230a31e81d0f440c30fed5fd8"
+    url "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz"
+    sha256 "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
   end
 
   resource "uc-micro-py" do
