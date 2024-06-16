@@ -3,19 +3,19 @@ class Tinboard < Formula
 
   desc "A terminal-based client for pinboard.in"
   homepage "https://github.com/davep/tinboard"
-  url "https://files.pythonhosted.org/packages/00/9f/2687e85766bf20a2ed85344438ecc8ae32d7d0ed3a0fdbcb894aee2da48d/tinboard-0.14.1.tar.gz"
-  sha256 "88ffa214aa280ec60e2aaa3811d24b72f14a2989d003a7a272fc91f324909384"
+  url "https://files.pythonhosted.org/packages/6a/ee/fdac0bb6b5ead62cfe00ade31dc41840d3b8dc1b660c4e2cb775a0bf435e/tinboard-0.15.0.tar.gz"
+  sha256 "a99cb46880a68518cdc66347f0b5c9dda7814c2e03fd16703be3f67d3a843025"
 
   depends_on "python3"
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz"
-    sha256 "f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6"
+    url "https://files.pythonhosted.org/packages/e6/e3/c4c8d473d6780ef1853d630d581f70d655b4f8d7553c6997958c283039a2/anyio-4.4.0.tar.gz"
+    sha256 "5aadc6a1bbb7cdb0bede386cac5e2940f5e2ff3aa20277e991cf028e0585ce94"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz"
-    sha256 "0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f"
+    url "https://files.pythonhosted.org/packages/07/b3/e02f4f397c81077ffc52a538e0aec464016f1860c472ed33bd2a1d220cc5/certifi-2024.6.2.tar.gz"
+    sha256 "3cd43f1c6fa7dedc5899d69d3ad0398fd018ad1a17fba83ddaf78aa46c747516"
   end
 
   resource "h11" do
@@ -89,13 +89,13 @@ class Tinboard < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/98/47/a89fe6d3981a9730a9af018b1e6e70f93f1615b035c951e3e15d06e1852c/textual-0.60.1.tar.gz"
-    sha256 "258565923f55487876b48b53c1104ad660355e1853af60381ef6b10b3ed3723e"
+    url "https://files.pythonhosted.org/packages/70/71/b39f91ac5d28e41a58ebd87ef27129d14623870fcd427f82adc647887795/textual-0.68.0.tar.gz"
+    sha256 "803d9e96bb6205aee85af8b4e68edbab04d506bfc124681ae1695dbdc43b6e1d"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/f6/f3/b827b3ab53b4e3d8513914586dcca61c355fa2ce8252dea4da56e67bf8f2/typing_extensions-4.11.0.tar.gz"
-    sha256 "83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"
+    url "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz"
+    sha256 "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
   end
 
   resource "uc-micro-py" do
