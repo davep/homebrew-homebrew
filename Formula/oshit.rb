@@ -3,8 +3,8 @@ class Oshit < Formula
 
   desc "OSHit - Get your hit of the Orange Site in the terminal"
   homepage "https://github.com/davep/oshit"
-  url "https://files.pythonhosted.org/packages/ca/c2/b1ce02898254656a79a6ac1443e7b76c2829b540373702b6f1018ac41b27/oshit-0.12.1.tar.gz"
-  sha256 "0bd0d9a9214bb2db8771b9e62be1f442d7603ae3b3dbd69a7d0a2160c8b60f8e"
+  url "https://files.pythonhosted.org/packages/db/96/78f4dfd1b67c6134c577e070b3b90059b8accf6120b7b93a7cb10983c429/oshit-0.12.2.tar.gz"
+  sha256 "e2d3f2ab3d5353d6e33c905c1c720b5d711c1799e4885de76c9c4abc485027f5"
 
   depends_on "python3"
 
@@ -79,8 +79,8 @@ class Oshit < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/70/71/b39f91ac5d28e41a58ebd87ef27129d14623870fcd427f82adc647887795/textual-0.68.0.tar.gz"
-    sha256 "803d9e96bb6205aee85af8b4e68edbab04d506bfc124681ae1695dbdc43b6e1d"
+    url "https://files.pythonhosted.org/packages/21/02/161d6e3dfd1d41ce5b53cee7a85cab0c6df6bacdda75f6c3a5c774beacef/textual-0.70.0.tar.gz"
+    sha256 "9ca3f615b5cf442246325e40ef8255424c42b4241d3c62f9c0f96951bab82b1e"
   end
 
   resource "typing-extensions" do
