@@ -3,8 +3,8 @@ class Tinboard < Formula
 
   desc "A terminal-based client for pinboard.in"
   homepage "https://github.com/davep/tinboard"
-  url "https://files.pythonhosted.org/packages/6a/ee/fdac0bb6b5ead62cfe00ade31dc41840d3b8dc1b660c4e2cb775a0bf435e/tinboard-0.15.0.tar.gz"
-  sha256 "a99cb46880a68518cdc66347f0b5c9dda7814c2e03fd16703be3f67d3a843025"
+  url "https://files.pythonhosted.org/packages/8d/b8/4362ca8a4c3e85f3a6e8f5bb94895b13d034e810e227822414cd0e5de4be/tinboard-0.15.1.tar.gz"
+  sha256 "3d5448a8a6729e1b822c9bb4bb2734ee43d191367a39df40f5c07c196ee26598"
 
   depends_on "python3"
 
@@ -69,8 +69,8 @@ class Tinboard < Formula
   end
 
   resource "pyperclip" do
-    url "https://files.pythonhosted.org/packages/a7/2c/4c64579f847bd5d539803c8b909e54ba087a79d01bb3aba433a95879a6c5/pyperclip-1.8.2.tar.gz"
-    sha256 "105254a8b04934f0bc84e9c24eb360a591aaf6535c9def5f29d92af107a9bf57"
+    url "https://files.pythonhosted.org/packages/30/23/2f0a3efc4d6a32f3b63cdff36cd398d9701d26cda58e3ab97ac79fb5e60d/pyperclip-1.9.0.tar.gz"
+    sha256 "b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310"
   end
 
   resource "pytz" do
@@ -89,8 +89,8 @@ class Tinboard < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/70/71/b39f91ac5d28e41a58ebd87ef27129d14623870fcd427f82adc647887795/textual-0.68.0.tar.gz"
-    sha256 "803d9e96bb6205aee85af8b4e68edbab04d506bfc124681ae1695dbdc43b6e1d"
+    url "https://files.pythonhosted.org/packages/21/02/161d6e3dfd1d41ce5b53cee7a85cab0c6df6bacdda75f6c3a5c774beacef/textual-0.70.0.tar.gz"
+    sha256 "9ca3f615b5cf442246325e40ef8255424c42b4241d3c62f9c0f96951bab82b1e"
   end
 
   resource "typing-extensions" do
