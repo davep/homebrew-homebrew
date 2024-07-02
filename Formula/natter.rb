@@ -3,19 +3,19 @@ class Natter < Formula
 
   desc "An experimental ollama client for the terminal"
   homepage "https://github.com/davep/natter"
-  url "https://files.pythonhosted.org/packages/e9/b1/7e5af8e97a0c4a1ed62bcbe07e9fbf970d5e2dbccd7f7ed79a2f7ef07cde/natter-0.0.2.tar.gz"
-  sha256 "b5379d9f0b3901b4fe7ca7f840c5075ff9be78b87e3541a3afcda2e14404599e"
+  url "https://files.pythonhosted.org/packages/a7/ca/5dc21e17151279f2537dc9d07e5744d7ab1a9703c818c578483f9b936929/natter-0.0.3.tar.gz"
+  sha256 "d4da3ba44f8f1bff980c0f98ed30658000e49c1c3dd58575c76883a5a49dde89"
 
   depends_on "python3"
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz"
-    sha256 "f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6"
+    url "https://files.pythonhosted.org/packages/e6/e3/c4c8d473d6780ef1853d630d581f70d655b4f8d7553c6997958c283039a2/anyio-4.4.0.tar.gz"
+    sha256 "5aadc6a1bbb7cdb0bede386cac5e2940f5e2ff3aa20277e991cf028e0585ce94"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz"
-    sha256 "0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f"
+    url "https://files.pythonhosted.org/packages/07/b3/e02f4f397c81077ffc52a538e0aec464016f1860c472ed33bd2a1d220cc5/certifi-2024.6.2.tar.gz"
+    sha256 "3cd43f1c6fa7dedc5899d69d3ad0398fd018ad1a17fba83ddaf78aa46c747516"
   end
 
   resource "h11" do
@@ -49,8 +49,8 @@ class Natter < Formula
   end
 
   resource "mdit-py-plugins" do
-    url "https://files.pythonhosted.org/packages/b4/db/61960d68d5c39ff0dd48cb799a39ae4e297f6e9b96bf2f8da29d897fba0c/mdit_py_plugins-0.4.0.tar.gz"
-    sha256 "d8ab27e9aed6c38aa716819fedfde15ca275715955f8a185a8e1cf90fb1d2c1b"
+    url "https://files.pythonhosted.org/packages/00/6c/79c52651b22b64dba5c7bbabd7a294cc410bfb2353250dc8ade44d7d8ad8/mdit_py_plugins-0.4.1.tar.gz"
+    sha256 "834b8ac23d1cd60cec703646ffd22ae97b7955a6d596eb1d304be1e251ae499c"
   end
 
   resource "mdurl" do
@@ -59,13 +59,13 @@ class Natter < Formula
   end
 
   resource "ollama" do
-    url "https://files.pythonhosted.org/packages/48/88/3b7094ddfc38a350a7fa8cce88ef584ca08cf127c9f5e4ce9e6504cd3b61/ollama-0.1.9.tar.gz"
-    sha256 "f64484b280db0fa03fb899580d8a3a85af3787fd2a85b67669b743e313b3faf1"
+    url "https://files.pythonhosted.org/packages/aa/2b/bda3e59080b136e90367bebb67d5072922a912f0e0b6f49be1b4eb79c109/ollama-0.2.1.tar.gz"
+    sha256 "fa316baa9a81eac3beb4affb0a17deb3008fdd6ed05b123c26306cfbe4c349b6"
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz"
-    sha256 "da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367"
+    url "https://files.pythonhosted.org/packages/8e/62/8336eff65bcbc8e4cb5d05b55faf041285951b6e80f33e2bff2024788f31/pygments-2.18.0.tar.gz"
+    sha256 "786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199"
   end
 
   resource "rich" do
@@ -79,8 +79,8 @@ class Natter < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/30/c1/c968cfbb861930e2aecdb89c2fd27a99ac72843a2c0feb691f81493a8e5d/textual-0.58.0.tar.gz"
-    sha256 "5c8c3322308e2b932c4550b0ae9f70daebc39716de3f920831cda96d1640b383"
+    url "https://files.pythonhosted.org/packages/dc/5f/93c41a9fbf195130037ba27e381470ab5436e820b47cec3e71b7d01bc3a7/textual-0.71.0.tar.gz"
+    sha256 "a38a3bd7e450ed173b59ab1c93a3aa8174d95bc5c79647f220a50243236ce70a"
   end
 
   resource "textual-fspicker" do
@@ -89,8 +89,8 @@ class Natter < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/f6/f3/b827b3ab53b4e3d8513914586dcca61c355fa2ce8252dea4da56e67bf8f2/typing_extensions-4.11.0.tar.gz"
-    sha256 "83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"
+    url "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz"
+    sha256 "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
   end
 
   resource "uc-micro-py" do
