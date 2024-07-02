@@ -3,8 +3,8 @@ class Natter < Formula
 
   desc "An experimental ollama client for the terminal"
   homepage "https://github.com/davep/natter"
-  url "https://files.pythonhosted.org/packages/a7/ca/5dc21e17151279f2537dc9d07e5744d7ab1a9703c818c578483f9b936929/natter-0.0.3.tar.gz"
-  sha256 "d4da3ba44f8f1bff980c0f98ed30658000e49c1c3dd58575c76883a5a49dde89"
+  url "https://files.pythonhosted.org/packages/f9/4d/bf9008407b1b5b9bbeab51e2c3a6f87e144e3920649e5fbaee97b7050305/natter-0.0.4.tar.gz"
+  sha256 "c7998e82916bd4b81f1bf4e8f3c777c198c3cfbff49fab3d8af6f483c8190c4d"
 
   depends_on "python3"
 
