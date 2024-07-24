@@ -3,8 +3,8 @@ class Oshit < Formula
 
   desc "OSHit - Get your hit of the Orange Site in the terminal"
   homepage "https://github.com/davep/oshit"
-  url "https://files.pythonhosted.org/packages/db/96/78f4dfd1b67c6134c577e070b3b90059b8accf6120b7b93a7cb10983c429/oshit-0.12.2.tar.gz"
-  sha256 "e2d3f2ab3d5353d6e33c905c1c720b5d711c1799e4885de76c9c4abc485027f5"
+  url "https://files.pythonhosted.org/packages/c3/26/5505d0f0663aa449a8e4f6eeccc14323b5e641dde29a52d2d6c02f33f217/oshit-0.12.3.tar.gz"
+  sha256 "de85096d4b7dc8dab5c607d21b78e13a2898ab4b4580b9973dfe7214c1ea8685"
 
   depends_on "python3"
 
@@ -14,8 +14,8 @@ class Oshit < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/07/b3/e02f4f397c81077ffc52a538e0aec464016f1860c472ed33bd2a1d220cc5/certifi-2024.6.2.tar.gz"
-    sha256 "3cd43f1c6fa7dedc5899d69d3ad0398fd018ad1a17fba83ddaf78aa46c747516"
+    url "https://files.pythonhosted.org/packages/c2/02/a95f2b11e207f68bc64d7aae9666fed2e2b3f307748d5123dffb72a1bbea/certifi-2024.7.4.tar.gz"
+    sha256 "5a1e7645bc0ec61a09e26c36f6106dd4cf40c6db3a1fb6352b0244e7fb057c7b"
   end
 
   resource "h11" do
@@ -34,8 +34,8 @@ class Oshit < Formula
   end
 
   resource "humanize" do
-    url "https://files.pythonhosted.org/packages/76/21/7a0b24fae849562397efd79da58e62437243ae0fd0f6c09c6bc26225b75c/humanize-4.9.0.tar.gz"
-    sha256 "582a265c931c683a7e9b8ed9559089dea7edcf6cc95be39a3cbc2c5d5ac2bcfa"
+    url "https://files.pythonhosted.org/packages/5d/b1/c8f05d5dc8f64030d8cc71e91307c1daadf6ec0d70bcd6eabdfd9b6f153f/humanize-4.10.0.tar.gz"
+    sha256 "06b6eb0293e4b85e8d385397c5868926820db32b9b654b932f57fa41c23c9978"
   end
 
   resource "idna" do
