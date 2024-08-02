@@ -3,8 +3,8 @@ class Oshit < Formula
 
   desc "OSHit - Get your hit of the Orange Site in the terminal"
   homepage "https://github.com/davep/oshit"
-  url "https://files.pythonhosted.org/packages/c3/26/5505d0f0663aa449a8e4f6eeccc14323b5e641dde29a52d2d6c02f33f217/oshit-0.12.3.tar.gz"
-  sha256 "de85096d4b7dc8dab5c607d21b78e13a2898ab4b4580b9973dfe7214c1ea8685"
+  url "https://files.pythonhosted.org/packages/cc/e4/a53a244655b68bdd073d5fd517373a67e9b9642cd15bb5fbf10e48344d38/oshit-0.12.4.tar.gz"
+  sha256 "d1f64893532f65643659c0f42840d2a64646e3f57e7397edcbc79c638b654fd5"
 
   depends_on "python3"
 
