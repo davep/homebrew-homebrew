@@ -31,6 +31,12 @@ oshit: clean
 	pipenv run poet -f $@ > Formula/$@.rb
 	sed -i '' 's/Shiny new formula/OSHit - Get your hit of the Orange Site in the terminal/' Formula/$@.rb
 
+.PHONY: paindrop
+paindrop: clean
+	pipenv install $@
+	pipenv run poet -f $@ > Formula/$@.rb
+	sed -i '' 's/Shiny new formula/Paindrop - A command line tool that imports Pinboard data into Raindrop/' Formula/$@.rb
+
 .PHONY: pispy
 pispy: clean
 	pipenv install pispy-client
