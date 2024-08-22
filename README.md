@@ -16,6 +16,7 @@ Packages available from here include:
 - [evolve-words](https://github.com/davep/evolve-words)
 - [natter](https://github.com/davep/natter)
 - [ng2web](https://github.com/davep/ng2web)
+- [paindrop](https://github.com/davep/paindrop)
 - [PISpy](https://github.com/davep/pispy)
 - [OSHit](https://github.com/davep/oshit)
 - [Quizzical](https://github.com/davep/quizzical)
