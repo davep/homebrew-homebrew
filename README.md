@@ -14,6 +14,7 @@ will also document this process in their own README.
 Packages available from here include:
 
 - [evolve-words](https://github.com/davep/evolve-words)
+- [journey2md](https://github.com/davep/journey2md)
 - [natter](https://github.com/davep/natter)
 - [ng2web](https://github.com/davep/ng2web)
 - [paindrop](https://github.com/davep/paindrop)
