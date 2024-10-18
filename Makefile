@@ -7,6 +7,12 @@ clean:
 	pipenv --python 3.12
 	pipenv install --dev homebrew-pypi-poet
 
+.PHONY: evernote2md
+evernote2md: clean
+	pipenv install $@
+	pipenv run poet -f $@ > Formula/$@.rb
+	sed -i '' 's/Shiny new formula/A command line tool to make a Markdown vault from an Evernote notebook export/' Formula/$@.rb
+
 .PHONY: evolve-words
 evolve-words: clean
 	pipenv install $@
