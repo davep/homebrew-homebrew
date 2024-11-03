@@ -7,6 +7,12 @@ clean:
 	pipenv --python 3.12
 	pipenv install --dev homebrew-pypi-poet
 
+.PHONY: bird2glass
+bird2glass: clean
+	pipenv install $@
+	pipenv run poet -f $@ > Formula/$@.rb
+	sed -i '' 's/Shiny new formula/A tool for converting Twitter exports to an Obsidian vault/' Formula/$@.rb
+
 .PHONY: evernote2md
 evernote2md: clean
 	pipenv install $@
