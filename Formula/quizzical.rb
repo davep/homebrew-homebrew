@@ -3,8 +3,8 @@ class Quizzical < Formula
 
   desc "A terminal-based trivia quiz"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/5c/5a/81aecf2880e000231f5bf86078a272e7542e98ddf4830fdf7864acd3e04d/quizzical-0.2.0.tar.gz"
-  sha256 "7b7a1b55793e2ce48fd2193cda88c3719aee296a66d2605f349ecb5a84e40f08"
+  url "https://files.pythonhosted.org/packages/74/d0/02e1211ef145f1a1c3ba8e54d772b136a7555bd8d86ad7c61864610b7160/quizzical-0.2.1.tar.gz"
+  sha256 "1cd9d75ef4f35eea0215d3fc0702bba2551acba8f010df28c714d8b075065dca"
 
   depends_on "python3"
 
@@ -84,8 +84,8 @@ class Quizzical < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/9b/ff/fa8fbc5559325549a9c56c06c55d023c0f707d823c9be611f916ccfe9a15/textual-0.87.0.tar.gz"
-    sha256 "15638863197dcc08f906523ef60341be754269b29fd656625a716aef7503d45e"
+    url "https://files.pythonhosted.org/packages/61/6a/e643a0d32dc964f831172ff84d4d1b0e3c6675954e74f81c201713c58d69/textual-0.87.1.tar.gz"
+    sha256 "daf4e248ba3d890831ff2617099535eb835863a2e3609c8ce00af0f6d55ed123"
   end
 
   resource "textual-countdown" do
