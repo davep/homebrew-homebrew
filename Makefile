@@ -13,6 +13,12 @@ bird2glass: clean
 	pipenv run poet -f $@ > Formula/$@.rb
 	sed -i '' 's/Shiny new formula/A tool for converting Twitter exports to an Obsidian vault/' Formula/$@.rb
 
+.PHONY: braindrop
+braindrop: clean
+	pipenv install $@
+	pipenv run poet -f $@ > Formula/$@.rb
+	sed -i '' 's/Shiny new formula/A terminal-based client for raindrop.io/' Formula/$@.rb
+
 .PHONY: evernote2md
 evernote2md: clean
 	pipenv install $@
