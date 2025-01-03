@@ -3,8 +3,8 @@ class Braindrop < Formula
 
   desc "A terminal-based client for raindrop.io"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/8c/a9/fd140395f2f0edc9a4edb645ded0064cbf50c23a690d19854019a238cff1/braindrop-0.0.2.tar.gz"
-  sha256 "28c35eba1251c6dae300a9995b8f1f69e94f9efd94ed8452f7a052d62da08ae8"
+  url "https://files.pythonhosted.org/packages/b2/ca/f32b3f34f9107e6c68b0388e599dfcdb9fc34dfb543250185e8352e8620c/braindrop-0.1.0.tar.gz"
+  sha256 "92eb693c8edf068b1bc23dd87a81fd2ae8f8d1acc24d8c1497fcee026c62bb26"
 
   depends_on "python3"
 
