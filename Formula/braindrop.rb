@@ -3,14 +3,14 @@ class Braindrop < Formula
 
   desc "A terminal-based client for raindrop.io"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/98/01/13d7abf42c80a2c2285b45e71ba001d06c549de6f2500e8fd2abbdf596c0/braindrop-0.1.1.tar.gz"
-  sha256 "8afafeb720b9f24c956b3becc35373a3d5bc082d571166e9dbfcb41ab5357170"
+  url "https://files.pythonhosted.org/packages/07/8f/ca4d5318f5c65a67896d068cfedfbbb7342e0463e0c30e67037a94e43c9a/braindrop-0.2.0.tar.gz"
+  sha256 "60c0661179176afb33fa0c668985ca19874e18da131ace12aefbd18048a433b1"
 
   depends_on "python3"
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/f6/40/318e58f669b1a9e00f5c4453910682e2d9dd594334539c7b7817dabb765f/anyio-4.7.0.tar.gz"
-    sha256 "2f834749c602966b7d456a7567cafcb309f96482b5081d14ac93ccd457f9dd48"
+    url "https://files.pythonhosted.org/packages/a3/73/199a98fc2dae33535d6b8e8e6ec01f8c1d76c9adb096c6b7d64823038cde/anyio-4.8.0.tar.gz"
+    sha256 "1d9fe889df5212298c0c0723fa20479d1b94883a2df44bd3897aa91083316f7a"
   end
 
   resource "certifi" do
@@ -69,8 +69,8 @@ class Braindrop < Formula
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/8e/62/8336eff65bcbc8e4cb5d05b55faf041285951b6e80f33e2bff2024788f31/pygments-2.18.0.tar.gz"
-    sha256 "786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199"
+    url "https://files.pythonhosted.org/packages/d3/c0/9c9832e5be227c40e1ce774d493065f83a91d6430baa7e372094e9683a45/pygments-2.19.0.tar.gz"
+    sha256 "afc4146269910d4bdfabcd27c24923137a74d562a23a320a41a55ad303e19783"
   end
 
   resource "pyperclip" do
