@@ -3,8 +3,8 @@ class Braindrop < Formula
 
   desc "A terminal-based client for raindrop.io"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/07/8f/ca4d5318f5c65a67896d068cfedfbbb7342e0463e0c30e67037a94e43c9a/braindrop-0.2.0.tar.gz"
-  sha256 "60c0661179176afb33fa0c668985ca19874e18da131ace12aefbd18048a433b1"
+  url "https://files.pythonhosted.org/packages/c0/93/b0974aea27291e9736cd6b55d94e070e65768bd5eaf669af9f1baf183c5a/braindrop-0.3.0.tar.gz"
+  sha256 "7058dc53846c356ed22c923a74709a5b2f4ef6581a6f8fd638e92329a2bd869b"
 
   depends_on "python3"
 
@@ -69,8 +69,8 @@ class Braindrop < Formula
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/d3/c0/9c9832e5be227c40e1ce774d493065f83a91d6430baa7e372094e9683a45/pygments-2.19.0.tar.gz"
-    sha256 "afc4146269910d4bdfabcd27c24923137a74d562a23a320a41a55ad303e19783"
+    url "https://files.pythonhosted.org/packages/7c/2d/c3338d48ea6cc0feb8446d8e6937e1408088a72a39937982cc6111d17f84/pygments-2.19.1.tar.gz"
+    sha256 "61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f"
   end
 
   resource "pyperclip" do
