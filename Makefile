@@ -61,6 +61,12 @@ paindrop: clean
 	pipenv run poet -f $@ > Formula/$@.rb
 	sed -i '' 's/Shiny new formula/Paindrop - A command line tool that imports Pinboard data into Raindrop/' Formula/$@.rb
 
+.PHONY: peplum
+peplum: clean
+	pipenv install $@
+	pipenv run poet -f $@ > Formula/$@.rb
+	sed -i '' 's/Shiny new formula/The TUI PEP lookup manager for your terminal/' Formula/$@.rb
+
 .PHONY: pispy
 pispy: clean
 	pipenv install pispy-client
