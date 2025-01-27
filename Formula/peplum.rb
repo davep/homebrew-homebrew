@@ -3,8 +3,8 @@ class Peplum < Formula
 
   desc "The TUI PEP lookup manager for your terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/53/d8/f49f038fae0f73a8455d2a850c6a1819e63ed7220b6d05f4b8b539c05bd5/peplum-0.1.0.tar.gz"
-  sha256 "14c55576118d7659aebda5e413f004d2f98e0229cdc0be314cbe59d298bbca68"
+  url "https://files.pythonhosted.org/packages/3b/40/168eb5b8504d279aba002823c6974f7372c8e29015867a7fbeae27726a06/peplum-0.2.0.tar.gz"
+  sha256 "b1304ae017a1f97b802952c013a37c92d9eb8f3278d2ea2298d1c6a1993f69d0"
 
   depends_on "python3"
 
