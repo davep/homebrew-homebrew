@@ -3,8 +3,8 @@ class Peplum < Formula
 
   desc "The TUI PEP lookup manager for your terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/3b/40/168eb5b8504d279aba002823c6974f7372c8e29015867a7fbeae27726a06/peplum-0.2.0.tar.gz"
-  sha256 "b1304ae017a1f97b802952c013a37c92d9eb8f3278d2ea2298d1c6a1993f69d0"
+  url "https://files.pythonhosted.org/packages/65/cb/6fe9c77dddf49fdce82c2bd4a038d82c93d942f84e66510cd1d885df7376/peplum-0.3.0.tar.gz"
+  sha256 "0668a2fa4a581f7969a86c85da59de14d7ba980416471cadf0a1024728babb32"
 
   depends_on "python3"
 
@@ -91,6 +91,11 @@ class Peplum < Formula
   resource "textual" do
     url "https://files.pythonhosted.org/packages/1f/b6/59b1de04bb4dca0f21ed7ba0b19309ed7f3f5de4396edf20cc2855e53085/textual-1.0.0.tar.gz"
     sha256 "bec9fe63547c1c552569d1b75d309038b7d456c03f86dfa3706ddb099b151399"
+  end
+
+  resource "textual-fspicker" do
+    url "https://files.pythonhosted.org/packages/21/46/d242953f3c6564a2c9bcc7048a61a756632ba4a032b2a815ef053b1a2151/textual_fspicker-0.1.1.tar.gz"
+    sha256 "038879d81dd9f418f94ca784a6667fdc374193add67ef9973262ab8c695d3f27"
   end
 
   resource "typing-extensions" do
