@@ -3,8 +3,8 @@ class Peplum < Formula
 
   desc "The TUI PEP lookup manager for your terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/65/cb/6fe9c77dddf49fdce82c2bd4a038d82c93d942f84e66510cd1d885df7376/peplum-0.3.0.tar.gz"
-  sha256 "0668a2fa4a581f7969a86c85da59de14d7ba980416471cadf0a1024728babb32"
+  url "https://files.pythonhosted.org/packages/ed/93/9f2b15f89153b337a4b972ba62e63a98252a2918b11b87e7fa95ed8b3494/peplum-0.4.0.tar.gz"
+  sha256 "2b5cd76958fcb5b655185b13043aa7019dc6e827e506202530f9e3efcc15c87b"
 
   depends_on "python3"
 
@@ -14,8 +14,8 @@ class Peplum < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/0f/bd/1d41ee578ce09523c81a15426705dd20969f5abf006d1afe8aeff0dd776a/certifi-2024.12.14.tar.gz"
-    sha256 "b650d30f370c2b724812bee08008be0c4163b163ddaec3f2546c1caf65f191db"
+    url "https://files.pythonhosted.org/packages/1c/ab/c9f1e32b7b1bf505bf26f0ef697775960db7932abeb7b516de930ba2705f/certifi-2025.1.31.tar.gz"
+    sha256 "3d5da6925056f6f18f119200434a4780a94263f10d1c21d032a6f6b2baa20651"
   end
 
   resource "h11" do
@@ -93,9 +93,14 @@ class Peplum < Formula
     sha256 "bec9fe63547c1c552569d1b75d309038b7d456c03f86dfa3706ddb099b151399"
   end
 
+  resource "textual-enhanced" do
+    url "https://files.pythonhosted.org/packages/bb/94/5347138b32b4cc01c4124ef2f794b3060c19fb7fca5aa3fcafd5cf6e817e/textual_enhanced-0.4.0.tar.gz"
+    sha256 "c06e62dbfb83c1ce8f71cf99b051ef8e238fbdfb5a4cc949feb010d391caf7f1"
+  end
+
   resource "textual-fspicker" do
-    url "https://files.pythonhosted.org/packages/21/46/d242953f3c6564a2c9bcc7048a61a756632ba4a032b2a815ef053b1a2151/textual_fspicker-0.1.1.tar.gz"
-    sha256 "038879d81dd9f418f94ca784a6667fdc374193add67ef9973262ab8c695d3f27"
+    url "https://files.pythonhosted.org/packages/fd/b5/9d6a50e48bae63d6022044176948c2403ccf1c6e2458d4af5ec2b8dddfc7/textual_fspicker-0.2.0.tar.gz"
+    sha256 "c11a3448e82556dd6bed8d261925e47e7eef04a203ffdeafc8a6978034b1432d"
   end
 
   resource "typing-extensions" do
