@@ -31,6 +31,12 @@ evolve-words: clean
 	pipenv run poet -f $@ > Formula/$@.rb
 	sed -i '' 's/Shiny new formula/A terminal-based visualisation of evolution through mutation and natural selection./' Formula/$@.rb
 
+.PHONY: hike
+hike: clean
+	pipenv install $@
+	pipenv run poet -f $@ > Formula/$@.rb
+	sed -i '' 's/Shiny new formula/A Markdown browser for the terminal/' Formula/$@.rb
+
 .PHONY: journey2md
 journey2md: clean
 	pipenv install $@
