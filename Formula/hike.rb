@@ -3,8 +3,8 @@ class Hike < Formula
 
   desc "A Markdown browser for the terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/78/6d/1cf8ad6c261fb4a8cd97b868a6218bea1d741c1a060d6069558c86c3eb85/hike-0.1.0.tar.gz"
-  sha256 "9da552b4881022964a339f935eac8601c081709d62d78342bb07232ddc27baa1"
+  url "https://files.pythonhosted.org/packages/eb/d2/1b270451b0f857c25b1a842a994efae310becd4f67470db4bfd6b0224eaf/hike-0.2.0.tar.gz"
+  sha256 "bb8b045dc76a153cb06ae74a5370a7393363f7cb7899f5620370412f7516c838"
 
   depends_on "python3"
 
@@ -66,6 +66,11 @@ class Hike < Formula
   resource "Pygments" do
     url "https://files.pythonhosted.org/packages/7c/2d/c3338d48ea6cc0feb8446d8e6937e1408088a72a39937982cc6111d17f84/pygments-2.19.1.tar.gz"
     sha256 "61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f"
+  end
+
+  resource "pyperclip" do
+    url "https://files.pythonhosted.org/packages/30/23/2f0a3efc4d6a32f3b63cdff36cd398d9701d26cda58e3ab97ac79fb5e60d/pyperclip-1.9.0.tar.gz"
+    sha256 "b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310"
   end
 
   resource "rich" do
