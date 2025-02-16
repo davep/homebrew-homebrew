@@ -3,8 +3,8 @@ class Braindrop < Formula
 
   desc "A terminal-based client for raindrop.io"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/a2/31/fdda24e3df6ce445df1cb8ca26813653d16b3780dd3e6398cf059c89e0dd/braindrop-0.7.1.tar.gz"
-  sha256 "023ddc62dd97b85424daf705af1b7a682652cb7dc5c83e9ad046dcd6436f7dc1"
+  url "https://files.pythonhosted.org/packages/ea/a9/e10e98721c7b3edc9296c35643193780f18ff87854f80d6632da68cd93c3/braindrop-0.7.2.tar.gz"
+  sha256 "b2cd16e1963eefe99939db0257cae99049509b5f719c7a4d1006e82c9e5785dc"
 
   depends_on "python3"
 
@@ -14,8 +14,8 @@ class Braindrop < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/0f/bd/1d41ee578ce09523c81a15426705dd20969f5abf006d1afe8aeff0dd776a/certifi-2024.12.14.tar.gz"
-    sha256 "b650d30f370c2b724812bee08008be0c4163b163ddaec3f2546c1caf65f191db"
+    url "https://files.pythonhosted.org/packages/1c/ab/c9f1e32b7b1bf505bf26f0ef697775960db7932abeb7b516de930ba2705f/certifi-2025.1.31.tar.gz"
+    sha256 "3d5da6925056f6f18f119200434a4780a94263f10d1c21d032a6f6b2baa20651"
   end
 
   resource "h11" do
@@ -34,8 +34,8 @@ class Braindrop < Formula
   end
 
   resource "humanize" do
-    url "https://files.pythonhosted.org/packages/6a/40/64a912b9330786df25e58127194d4a5a7441f818b400b155e748a270f924/humanize-4.11.0.tar.gz"
-    sha256 "e66f36020a2d5a974c504bd2555cf770621dbdbb6d82f94a6857c0b1ea2608be"
+    url "https://files.pythonhosted.org/packages/38/ff/9f38de04e15bd53f5b64d38e6b9f21357d7b3edee7e398d05aaf407dbdfe/humanize-4.12.0.tar.gz"
+    sha256 "87ff7b43591370b12a1d103c9405849d911d4b039ed22d80b718b62c76eec8a3"
   end
 
   resource "idna" do
@@ -79,8 +79,8 @@ class Braindrop < Formula
   end
 
   resource "pytz" do
-    url "https://files.pythonhosted.org/packages/3a/31/3c70bf7603cc2dca0f19bdc53b4537a797747a58875b552c8c413d963a3f/pytz-2024.2.tar.gz"
-    sha256 "2aa355083c50a0f93fa581709deac0c9ad65cca8a9e9beac660adcbd493c798a"
+    url "https://files.pythonhosted.org/packages/5f/57/df1c9157c8d5a05117e455d66fd7cf6dbc46974f832b1058ed4856785d8a/pytz-2025.1.tar.gz"
+    sha256 "c2db42be2a2518b28e65f9207c4d05e6ff547d1efa4086469ef855e4ab70178e"
   end
 
   resource "rich" do
@@ -96,6 +96,11 @@ class Braindrop < Formula
   resource "textual" do
     url "https://files.pythonhosted.org/packages/1f/b6/59b1de04bb4dca0f21ed7ba0b19309ed7f3f5de4396edf20cc2855e53085/textual-1.0.0.tar.gz"
     sha256 "bec9fe63547c1c552569d1b75d309038b7d456c03f86dfa3706ddb099b151399"
+  end
+
+  resource "textual-enhanced" do
+    url "https://files.pythonhosted.org/packages/4b/9c/90bae41a6966572eff6fe32263238b654cf9bb49ccf24acdb72cabed2e8c/textual_enhanced-0.6.0.tar.gz"
+    sha256 "fd32449927af9335147bfa0e85b064e4c764023b9f7bda0fd7d37df9a5da7c39"
   end
 
   resource "typing-extensions" do

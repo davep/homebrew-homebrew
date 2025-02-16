@@ -3,8 +3,8 @@ class Peplum < Formula
 
   desc "The TUI PEP lookup manager for your terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/ed/93/9f2b15f89153b337a4b972ba62e63a98252a2918b11b87e7fa95ed8b3494/peplum-0.4.0.tar.gz"
-  sha256 "2b5cd76958fcb5b655185b13043aa7019dc6e827e506202530f9e3efcc15c87b"
+  url "https://files.pythonhosted.org/packages/6e/33/e6098f89e2a70c0ec4c5544fa496c6682edd260149c6abcd20ec61149ea9/peplum-0.4.1.tar.gz"
+  sha256 "a7f811df90ec60e90405c5435d3f2935d02717e152a66337671ed31eeb3ca495"
 
   depends_on "python3"
 
@@ -34,8 +34,8 @@ class Peplum < Formula
   end
 
   resource "humanize" do
-    url "https://files.pythonhosted.org/packages/6a/40/64a912b9330786df25e58127194d4a5a7441f818b400b155e748a270f924/humanize-4.11.0.tar.gz"
-    sha256 "e66f36020a2d5a974c504bd2555cf770621dbdbb6d82f94a6857c0b1ea2608be"
+    url "https://files.pythonhosted.org/packages/38/ff/9f38de04e15bd53f5b64d38e6b9f21357d7b3edee7e398d05aaf407dbdfe/humanize-4.12.0.tar.gz"
+    sha256 "87ff7b43591370b12a1d103c9405849d911d4b039ed22d80b718b62c76eec8a3"
   end
 
   resource "idna" do
@@ -94,8 +94,8 @@ class Peplum < Formula
   end
 
   resource "textual-enhanced" do
-    url "https://files.pythonhosted.org/packages/bb/94/5347138b32b4cc01c4124ef2f794b3060c19fb7fca5aa3fcafd5cf6e817e/textual_enhanced-0.4.0.tar.gz"
-    sha256 "c06e62dbfb83c1ce8f71cf99b051ef8e238fbdfb5a4cc949feb010d391caf7f1"
+    url "https://files.pythonhosted.org/packages/4b/9c/90bae41a6966572eff6fe32263238b654cf9bb49ccf24acdb72cabed2e8c/textual_enhanced-0.6.0.tar.gz"
+    sha256 "fd32449927af9335147bfa0e85b064e4c764023b9f7bda0fd7d37df9a5da7c39"
   end
 
   resource "textual-fspicker" do
