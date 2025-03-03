@@ -3,8 +3,8 @@ class Hike < Formula
 
   desc "A Markdown browser for the terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/d9/d6/1fd33588e33628560c0e64afed3d2d5a443b765fe7de6f62540f0c20d4dd/hike-0.5.0.tar.gz"
-  sha256 "885785456ed74db8421f1127a82b477790565e8fc25646762c80569f3784f448"
+  url "https://files.pythonhosted.org/packages/d7/46/2b63711c3723d9c329932fda10e262a3da57ff905036a0f04835d79b8074/hike-0.6.0.tar.gz"
+  sha256 "ef31c2959fb2292683ff1894ac5556675df351607606711c45e9f7d583530373"
 
   depends_on "python3"
 
@@ -89,13 +89,13 @@ class Hike < Formula
   end
 
   resource "textual-enhanced" do
-    url "https://files.pythonhosted.org/packages/4b/9c/90bae41a6966572eff6fe32263238b654cf9bb49ccf24acdb72cabed2e8c/textual_enhanced-0.6.0.tar.gz"
-    sha256 "fd32449927af9335147bfa0e85b064e4c764023b9f7bda0fd7d37df9a5da7c39"
+    url "https://files.pythonhosted.org/packages/14/2c/ba1196193642ed282d33440c811e3db0d1c2d3c3a1acf8167e74bddbad18/textual_enhanced-0.7.0.tar.gz"
+    sha256 "aa4c0ce70db4633a1cb67cb9ce97ebf5b557573783583cbe2f9e46ec04ad47ad"
   end
 
   resource "textual-fspicker" do
-    url "https://files.pythonhosted.org/packages/0f/76/61349cb50c50041d19158e1a9c73513d25b9bb8da55a563bb740f2b0d1a2/textual_fspicker-0.4.0.tar.gz"
-    sha256 "f1a83c65518cf29b9bbdbb4871e623fefae7495a9178316f1e1913f7500de23d"
+    url "https://files.pythonhosted.org/packages/a4/b0/5f895b15562064ef473bc1e882b6dfb1df4c29fd3259ba09aae481e289a6/textual_fspicker-0.4.1.tar.gz"
+    sha256 "94815262c12d38b69ccba85804d334b998f90ebda7c43d362e9665e59d72cb87"
   end
 
   resource "typing-extensions" do
