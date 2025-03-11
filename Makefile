@@ -7,6 +7,12 @@ clean:
 	pipenv --python 3.12
 	pipenv install --dev homebrew-pypi-poet
 
+.PHONY: aging
+aging: clean
+	pipenv install $@
+	pipenv run poet -f $@ > Formula/$@.rb
+	sed -i '' 's/Shiny new formula/A Norton Guide reader for the terminal/' Formula/$@.rb
+
 .PHONY: bird2glass
 bird2glass: clean
 	pipenv install $@
