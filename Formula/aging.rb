@@ -3,8 +3,8 @@ class Aging < Formula
 
   desc "A Norton Guide reader for the terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/87/40/8fcd3b43a956f3522d818d3dc6fcc3ae5b514f2050a1680f1bd842748a7b/aging-0.1.0.tar.gz"
-  sha256 "8376cdb969929989fcbba368c9abb344f3f1e53fbdf4a576ec0056fd56890a5d"
+  url "https://files.pythonhosted.org/packages/45/01/95264812a891b5efbe9605bcafa6fe17738c53c0fe219eea114d37ec2165/aging-0.2.0.tar.gz"
+  sha256 "c80bd05e1bcd3b5a55fa324fdf3ae370c1ac37442374dabb10a0c927c0be38bb"
 
   depends_on "python3"
 
