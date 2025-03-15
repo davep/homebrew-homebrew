@@ -3,8 +3,8 @@ class Peplum < Formula
 
   desc "The TUI PEP lookup manager for your terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/6e/33/e6098f89e2a70c0ec4c5544fa496c6682edd260149c6abcd20ec61149ea9/peplum-0.4.1.tar.gz"
-  sha256 "a7f811df90ec60e90405c5435d3f2935d02717e152a66337671ed31eeb3ca495"
+  url "https://files.pythonhosted.org/packages/a0/6b/c10df62bd727ad558d2203ccd0f81603db8c4eeb8828e08f43e1967a43c7/peplum-0.4.2.tar.gz"
+  sha256 "cb2066f4b69fba3ff2656b803a04b5459c5c651db63623b6bd3ce27c83492429"
 
   depends_on "python3"
 
@@ -34,8 +34,8 @@ class Peplum < Formula
   end
 
   resource "humanize" do
-    url "https://files.pythonhosted.org/packages/38/ff/9f38de04e15bd53f5b64d38e6b9f21357d7b3edee7e398d05aaf407dbdfe/humanize-4.12.0.tar.gz"
-    sha256 "87ff7b43591370b12a1d103c9405849d911d4b039ed22d80b718b62c76eec8a3"
+    url "https://files.pythonhosted.org/packages/5b/8c/4f2f0784d08a383b5de3d3b1d65a6f204cc5dc487621c91c550388d756af/humanize-4.12.1.tar.gz"
+    sha256 "1338ba97415c96556758a6e2f65977ed406dddf4620d4c6db9bbdfd07f0f1232"
   end
 
   resource "idna" do
@@ -94,13 +94,13 @@ class Peplum < Formula
   end
 
   resource "textual-enhanced" do
-    url "https://files.pythonhosted.org/packages/4b/9c/90bae41a6966572eff6fe32263238b654cf9bb49ccf24acdb72cabed2e8c/textual_enhanced-0.6.0.tar.gz"
-    sha256 "fd32449927af9335147bfa0e85b064e4c764023b9f7bda0fd7d37df9a5da7c39"
+    url "https://files.pythonhosted.org/packages/23/e9/890182b5c8914ea08bb3c1a19cb680bb045cd550678fc970e010245e1e99/textual_enhanced-0.8.1.tar.gz"
+    sha256 "be841dd981f342f66888c20e7fe4118691ba6b8ce73ef0070434b7734c4e7637"
   end
 
   resource "textual-fspicker" do
-    url "https://files.pythonhosted.org/packages/fd/b5/9d6a50e48bae63d6022044176948c2403ccf1c6e2458d4af5ec2b8dddfc7/textual_fspicker-0.2.0.tar.gz"
-    sha256 "c11a3448e82556dd6bed8d261925e47e7eef04a203ffdeafc8a6978034b1432d"
+    url "https://files.pythonhosted.org/packages/a4/b0/5f895b15562064ef473bc1e882b6dfb1df4c29fd3259ba09aae481e289a6/textual_fspicker-0.4.1.tar.gz"
+    sha256 "94815262c12d38b69ccba85804d334b998f90ebda7c43d362e9665e59d72cb87"
   end
 
   resource "typing-extensions" do
