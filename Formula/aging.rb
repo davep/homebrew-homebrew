@@ -3,8 +3,8 @@ class Aging < Formula
 
   desc "A Norton Guide reader for the terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/45/01/95264812a891b5efbe9605bcafa6fe17738c53c0fe219eea114d37ec2165/aging-0.2.0.tar.gz"
-  sha256 "c80bd05e1bcd3b5a55fa324fdf3ae370c1ac37442374dabb10a0c927c0be38bb"
+  url "https://files.pythonhosted.org/packages/33/ee/54f4134a154ec328fe30571b4ef9ecbda1c264bd2b8c2502875d5515fd8e/aging-0.3.0.tar.gz"
+  sha256 "33d4023cfc7e3f76fdc7b13be9d4fbdedb41eca88a1b8c4f6df47a9f8609fc2f"
 
   depends_on "python3"
 
@@ -34,13 +34,13 @@ class Aging < Formula
   end
 
   resource "ngdb" do
-    url "https://files.pythonhosted.org/packages/d0/de/f53e74f72dd8c0fd168a658fc8041d02613672c086e6747d33859336763d/ngdb-0.8.0.tar.gz"
-    sha256 "43f00c4955cae46bc3faae0a4feccbf182c9bab434345b6fee277a677073506c"
+    url "https://files.pythonhosted.org/packages/bf/41/948579231e329f123e0275ad366a6dc63b158a26bf638a482adec3670267/ngdb-0.11.0.tar.gz"
+    sha256 "ff7a5deb4608df44c04508154516d9ef656d758bfeba661ee9d85d8b9e93cbe8"
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/13/fc/128cc9cb8f03208bdbf93d3aa862e16d376844a14f9a0ce5cf4507372de4/platformdirs-4.3.6.tar.gz"
-    sha256 "357fb2acbc885b0419afd3ce3ed34564c13c9b95c89360cd9563f73aa5e2b907"
+    url "https://files.pythonhosted.org/packages/b6/2d/7d512a3913d60623e7eb945c6d1b4f0bddf1d0b7ada5225274c87e5b53d1/platformdirs-4.3.7.tar.gz"
+    sha256 "eb437d586b6a0986388f0d6f74aa0cde27b48d0e3d66843640bfb6bdcdb6e351"
   end
 
   resource "Pygments" do
@@ -64,8 +64,8 @@ class Aging < Formula
   end
 
   resource "textual-enhanced" do
-    url "https://files.pythonhosted.org/packages/91/fe/abaa530b10b2af6dbafb9ae0f4e02d0817cf4428070ff752aab8693ead73/textual_enhanced-0.7.1.tar.gz"
-    sha256 "6f242957b4d3604a58492379e22248af76e359d93d84c17922920833a7b85990"
+    url "https://files.pythonhosted.org/packages/23/e9/890182b5c8914ea08bb3c1a19cb680bb045cd550678fc970e010245e1e99/textual_enhanced-0.8.1.tar.gz"
+    sha256 "be841dd981f342f66888c20e7fe4118691ba6b8ce73ef0070434b7734c4e7637"
   end
 
   resource "textual-fspicker" do
