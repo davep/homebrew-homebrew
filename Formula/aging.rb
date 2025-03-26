@@ -3,14 +3,14 @@ class Aging < Formula
 
   desc "A Norton Guide reader for the terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/33/ee/54f4134a154ec328fe30571b4ef9ecbda1c264bd2b8c2502875d5515fd8e/aging-0.3.0.tar.gz"
-  sha256 "33d4023cfc7e3f76fdc7b13be9d4fbdedb41eca88a1b8c4f6df47a9f8609fc2f"
+  url "https://files.pythonhosted.org/packages/b5/61/28b391c548a0d9270bda8655cfba1b702709dc4891475f52c0dde5c207dc/aging-0.4.0.tar.gz"
+  sha256 "96cdc082383362523a828ddd3bd4852556caf9c08e2600597749a445a09136ee"
 
   depends_on "python3"
 
   resource "humanize" do
-    url "https://files.pythonhosted.org/packages/5b/8c/4f2f0784d08a383b5de3d3b1d65a6f204cc5dc487621c91c550388d756af/humanize-4.12.1.tar.gz"
-    sha256 "1338ba97415c96556758a6e2f65977ed406dddf4620d4c6db9bbdfd07f0f1232"
+    url "https://files.pythonhosted.org/packages/e0/84/ae8e64a6ffe3291105e9688f4e28fa65eba7924e0fe6053d85ca00556385/humanize-4.12.2.tar.gz"
+    sha256 "ce0715740e9caacc982bb89098182cf8ded3552693a433311c6a4ce6f4e12a2c"
   end
 
   resource "linkify-it-py" do
@@ -34,8 +34,8 @@ class Aging < Formula
   end
 
   resource "ngdb" do
-    url "https://files.pythonhosted.org/packages/bf/41/948579231e329f123e0275ad366a6dc63b158a26bf638a482adec3670267/ngdb-0.11.0.tar.gz"
-    sha256 "ff7a5deb4608df44c04508154516d9ef656d758bfeba661ee9d85d8b9e93cbe8"
+    url "https://files.pythonhosted.org/packages/77/4d/57de832c92f193a0c425fe0c8c58275a8fa364b168ae0913f43b806ec21e/ngdb-0.12.0.tar.gz"
+    sha256 "9c1ef674f3cbd5d645df9b4e4f2a40a5e483128aeb927d80de9aec39bda61e1a"
   end
 
   resource "platformdirs" do
@@ -74,8 +74,8 @@ class Aging < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz"
-    sha256 "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
+    url "https://files.pythonhosted.org/packages/0e/3e/b00a62db91a83fff600de219b6ea9908e6918664899a2d85db222f4fbf19/typing_extensions-4.13.0.tar.gz"
+    sha256 "0a4ac55a5820789d87e297727d229866c9650f6521b64206413c4fbada24d95b"
   end
 
   resource "uc-micro-py" do
