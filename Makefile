@@ -25,6 +25,12 @@ braindrop: clean
 	pipenv run poet -f $@ > Formula/$@.rb
 	sed -i '' 's/Shiny new formula/A terminal-based client for raindrop.io/' Formula/$@.rb
 
+.PHONY: complexitty
+complexitty: clean
+	pipenv install $@
+	pipenv run poet -f $@ > Formula/$@.rb
+	sed -i '' 's/Shiny new formula/A simple Mandelbrot Set explorer for the terminal/' Formula/$@.rb
+
 .PHONY: evernote2md
 evernote2md: clean
 	pipenv install $@
