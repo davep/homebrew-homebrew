@@ -3,8 +3,8 @@ class Complexitty < Formula
 
   desc "A simple Mandelbrot Set explorer for the terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/61/84/0f568178a0f0f687c25ed28c40e0c4c0821840814ad58f32a506049bfceb/complexitty-0.1.0.tar.gz"
-  sha256 "6f767bf30316e6641f45daf30bbe3b48d78a8554eeee6c2bfa41343baae4a5bd"
+  url "https://files.pythonhosted.org/packages/fd/e3/f8ef536acbe1b9bc93f2777b505065d669780a0838d7e3197ba56c7d795f/complexitty-0.2.0.tar.gz"
+  sha256 "57ae77d0679d4cd13a5ce733f8f62c01d51ba9b5614c7a575705750e43a14228"
 
   depends_on "python3"
 
