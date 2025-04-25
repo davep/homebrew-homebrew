@@ -3,8 +3,8 @@ class Complexitty < Formula
 
   desc "A simple Mandelbrot Set explorer for the terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/fd/e3/f8ef536acbe1b9bc93f2777b505065d669780a0838d7e3197ba56c7d795f/complexitty-0.2.0.tar.gz"
-  sha256 "57ae77d0679d4cd13a5ce733f8f62c01d51ba9b5614c7a575705750e43a14228"
+  url "https://files.pythonhosted.org/packages/ce/10/cb346d521365cd582021e84edb8552aecfa0ec6f623378816e2a2e76055b/complexitty-0.3.0.tar.gz"
+  sha256 "614f036af221b8a2f5a0cb9072a5c0c572fe73197f98690290cd1190f76977fb"
 
   depends_on "python3"
 
@@ -44,8 +44,8 @@ class Complexitty < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/dc/1f/df371f1455524a3d0079871e49e3850c82767904e9f4e2bdea6d30a866a7/textual-3.1.0.tar.gz"
-    sha256 "6bcab6581e9753d2a2043caf49f43c5818feb35f8049ed185bd38982bfb310ca"
+    url "https://files.pythonhosted.org/packages/d2/c9/b36f65d15452bdca2b186526262ce8759ee8089ae76c3cc8e3fe303cc527/textual-3.1.1.tar.gz"
+    sha256 "cfb40a820edf77cae1c11fa15056d9e1a731c7bcbc6ab293aafcc139a4e46b6a"
   end
 
   resource "textual-canvas" do
@@ -54,8 +54,8 @@ class Complexitty < Formula
   end
 
   resource "textual-enhanced" do
-    url "https://files.pythonhosted.org/packages/d9/b0/7e4fbb88b18a2ffe10819626993f9d212b4eac96c56769d2321af329da39/textual_enhanced-0.12.0.tar.gz"
-    sha256 "784c59f2b3da09f2ebdc1e28948840c76b30053201b5cd82df3538d1f470dcd7"
+    url "https://files.pythonhosted.org/packages/83/ba/5faa1a27c7d19a3fdf1abd1657a0fdcaeb1aed043f29bad705205b4c5259/textual_enhanced-0.13.0.tar.gz"
+    sha256 "fcc63a43400de6057ce1906088c2323ca7853c09f34b6c242a5b3f72e8d4c11c"
   end
 
   resource "typing-extensions" do
