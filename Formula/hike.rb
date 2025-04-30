@@ -3,8 +3,8 @@ class Hike < Formula
 
   desc "A Markdown browser for the terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/8e/96/293087322d7ced5049b171da54a0f42568c03a4e285b5504a96d524719d0/hike-0.11.1.tar.gz"
-  sha256 "cbfb589f4f012d9f21824407302bb5cc26c77e9522bf40fc828f7bd5567de2dd"
+  url "https://files.pythonhosted.org/packages/49/ce/4248aa05afcddd36d8a286bed2b6a5db3b7d556187dd57503c5323b18445/hike-0.12.0.tar.gz"
+  sha256 "ea9b28db6b4106879bb374afec789401ba3b709dee0d9fe29fe72d652f3a9316"
 
   depends_on "python3"
 
@@ -14,18 +14,18 @@ class Hike < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/1c/ab/c9f1e32b7b1bf505bf26f0ef697775960db7932abeb7b516de930ba2705f/certifi-2025.1.31.tar.gz"
-    sha256 "3d5da6925056f6f18f119200434a4780a94263f10d1c21d032a6f6b2baa20651"
+    url "https://files.pythonhosted.org/packages/e8/9e/c05b3920a3b7d20d3d3310465f50348e5b3694f4f88c6daf736eef3024c4/certifi-2025.4.26.tar.gz"
+    sha256 "0a816057ea3cdefcef70270d2c515e4506bbc954f417fa5ade2021213bb8f0c6"
   end
 
   resource "h11" do
-    url "https://files.pythonhosted.org/packages/f5/38/3af3d3633a34a3316095b39c8e8fb4853a28a536e55d347bd8d8e9a14b03/h11-0.14.0.tar.gz"
-    sha256 "8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d"
+    url "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz"
+    sha256 "4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1"
   end
 
   resource "httpcore" do
-    url "https://files.pythonhosted.org/packages/9f/45/ad3e1b4d448f22c0cff4f5692f5ed0666658578e358b8d58a19846048059/httpcore-1.0.8.tar.gz"
-    sha256 "86e94505ed24ea06514883fd44d2bc02d90e77e7979c8eb71b90f41d364a1bad"
+    url "https://files.pythonhosted.org/packages/06/94/82699a10bca87a5556c9c59b5963f2d039dbd239f25bc2a63907a05a14cb/httpcore-1.0.9.tar.gz"
+    sha256 "6e34463af53fd2ab5d807f399a9b45ea31c3dfa2276f15a2c3f00afff6e176e8"
   end
 
   resource "httpx" do
@@ -84,13 +84,13 @@ class Hike < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/dc/1f/df371f1455524a3d0079871e49e3850c82767904e9f4e2bdea6d30a866a7/textual-3.1.0.tar.gz"
-    sha256 "6bcab6581e9753d2a2043caf49f43c5818feb35f8049ed185bd38982bfb310ca"
+    url "https://files.pythonhosted.org/packages/d2/c9/b36f65d15452bdca2b186526262ce8759ee8089ae76c3cc8e3fe303cc527/textual-3.1.1.tar.gz"
+    sha256 "cfb40a820edf77cae1c11fa15056d9e1a731c7bcbc6ab293aafcc139a4e46b6a"
   end
 
   resource "textual-enhanced" do
-    url "https://files.pythonhosted.org/packages/17/b7/0332b5244db61e8b31679923557335105df8bf0d9f3750b52fbe6d7df250/textual_enhanced-0.11.0.tar.gz"
-    sha256 "4693c6718d279193e2a590d790f283720daad5be80dba0df536616c04736d6c8"
+    url "https://files.pythonhosted.org/packages/83/ba/5faa1a27c7d19a3fdf1abd1657a0fdcaeb1aed043f29bad705205b4c5259/textual_enhanced-0.13.0.tar.gz"
+    sha256 "fcc63a43400de6057ce1906088c2323ca7853c09f34b6c242a5b3f72e8d4c11c"
   end
 
   resource "textual-fspicker" do
