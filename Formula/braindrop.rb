@@ -3,8 +3,8 @@ class Braindrop < Formula
 
   desc "A terminal-based client for raindrop.io"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/4e/47/f3bf0376b38ee8a32b91da8df23a3d4431fbb3633c4ba640635b0cb7b46f/braindrop-0.7.3.tar.gz"
-  sha256 "cf7f6ada43c8bc6ca64e90bc45d9f377caea0e5ea5456bda52be6430b42029b2"
+  url "https://files.pythonhosted.org/packages/8e/89/0b3087e721e5064c9be44c76e4eabbe63242ff23a6a9f70d1fc0780e3a48/braindrop-0.8.0.tar.gz"
+  sha256 "9ffa2f736b443302646624194b42a2f224c30d6f87f17db2aec9be6ac407d130"
 
   depends_on "python3"
 
@@ -34,8 +34,8 @@ class Braindrop < Formula
   end
 
   resource "humanize" do
-    url "https://files.pythonhosted.org/packages/e0/84/ae8e64a6ffe3291105e9688f4e28fa65eba7924e0fe6053d85ca00556385/humanize-4.12.2.tar.gz"
-    sha256 "ce0715740e9caacc982bb89098182cf8ded3552693a433311c6a4ce6f4e12a2c"
+    url "https://files.pythonhosted.org/packages/22/d1/bbc4d251187a43f69844f7fd8941426549bbe4723e8ff0a7441796b0789f/humanize-4.12.3.tar.gz"
+    sha256 "8430be3a615106fdfceb0b2c1b41c4c98c6b0fc5cc59663a5539b111dd325fb0"
   end
 
   resource "idna" do
