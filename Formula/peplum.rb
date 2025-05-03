@@ -3,8 +3,8 @@ class Peplum < Formula
 
   desc "The TUI PEP lookup manager for your terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/fc/83/9dbe5848e7dd607adacd0963cb194350582d479cc40d9c5b520cedfc2adc/peplum-0.6.1.tar.gz"
-  sha256 "907fe74a109dc6ce4aa326b6d14791f13e9c0dbffdea8fec4725ba58696cb9d7"
+  url "https://files.pythonhosted.org/packages/16/bf/8fd69a144cd5fab2a6c2e2361e34ea1f2f7f5e6d17a401ab54dfd51df070/peplum-1.0.0.tar.gz"
+  sha256 "04765d26baf5bacb1a06fea07bc76559f3fe8379a78b9f7a4b89ad7cd486ea6e"
 
   depends_on "python3"
 
@@ -14,18 +14,18 @@ class Peplum < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/1c/ab/c9f1e32b7b1bf505bf26f0ef697775960db7932abeb7b516de930ba2705f/certifi-2025.1.31.tar.gz"
-    sha256 "3d5da6925056f6f18f119200434a4780a94263f10d1c21d032a6f6b2baa20651"
+    url "https://files.pythonhosted.org/packages/e8/9e/c05b3920a3b7d20d3d3310465f50348e5b3694f4f88c6daf736eef3024c4/certifi-2025.4.26.tar.gz"
+    sha256 "0a816057ea3cdefcef70270d2c515e4506bbc954f417fa5ade2021213bb8f0c6"
   end
 
   resource "h11" do
-    url "https://files.pythonhosted.org/packages/f5/38/3af3d3633a34a3316095b39c8e8fb4853a28a536e55d347bd8d8e9a14b03/h11-0.14.0.tar.gz"
-    sha256 "8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d"
+    url "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz"
+    sha256 "4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1"
   end
 
   resource "httpcore" do
-    url "https://files.pythonhosted.org/packages/9f/45/ad3e1b4d448f22c0cff4f5692f5ed0666658578e358b8d58a19846048059/httpcore-1.0.8.tar.gz"
-    sha256 "86e94505ed24ea06514883fd44d2bc02d90e77e7979c8eb71b90f41d364a1bad"
+    url "https://files.pythonhosted.org/packages/06/94/82699a10bca87a5556c9c59b5963f2d039dbd239f25bc2a63907a05a14cb/httpcore-1.0.9.tar.gz"
+    sha256 "6e34463af53fd2ab5d807f399a9b45ea31c3dfa2276f15a2c3f00afff6e176e8"
   end
 
   resource "httpx" do
@@ -34,8 +34,8 @@ class Peplum < Formula
   end
 
   resource "humanize" do
-    url "https://files.pythonhosted.org/packages/e0/84/ae8e64a6ffe3291105e9688f4e28fa65eba7924e0fe6053d85ca00556385/humanize-4.12.2.tar.gz"
-    sha256 "ce0715740e9caacc982bb89098182cf8ded3552693a433311c6a4ce6f4e12a2c"
+    url "https://files.pythonhosted.org/packages/22/d1/bbc4d251187a43f69844f7fd8941426549bbe4723e8ff0a7441796b0789f/humanize-4.12.3.tar.gz"
+    sha256 "8430be3a615106fdfceb0b2c1b41c4c98c6b0fc5cc59663a5539b111dd325fb0"
   end
 
   resource "idna" do
@@ -64,8 +64,8 @@ class Peplum < Formula
   end
 
   resource "packaging" do
-    url "https://files.pythonhosted.org/packages/d0/63/68dbb6eb2de9cb10ee4c9c14a0148804425e13c4fb20d61cce69f53106da/packaging-24.2.tar.gz"
-    sha256 "c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f"
+    url "https://files.pythonhosted.org/packages/a1/d4/1fc4078c65507b51b96ca8f8c3ba19e6a61c8253c72794544580a7b6c24d/packaging-25.0.tar.gz"
+    sha256 "d443872c98d677bf60f6a1f2f8c1cb748e8fe762d2bf9d3148b5599295b0fc4f"
   end
 
   resource "platformdirs" do
@@ -89,13 +89,13 @@ class Peplum < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/dc/1f/df371f1455524a3d0079871e49e3850c82767904e9f4e2bdea6d30a866a7/textual-3.1.0.tar.gz"
-    sha256 "6bcab6581e9753d2a2043caf49f43c5818feb35f8049ed185bd38982bfb310ca"
+    url "https://files.pythonhosted.org/packages/34/99/8408761a1a1076b2bb69d4859ec110d74be7515552407ac1cb6b68630eb6/textual-3.2.0.tar.gz"
+    sha256 "d2f3b0c39e02535bb5f2aec1c45e10bd3ee7508ed1e240b7505c3cf02a6f00ed"
   end
 
   resource "textual-enhanced" do
-    url "https://files.pythonhosted.org/packages/17/b7/0332b5244db61e8b31679923557335105df8bf0d9f3750b52fbe6d7df250/textual_enhanced-0.11.0.tar.gz"
-    sha256 "4693c6718d279193e2a590d790f283720daad5be80dba0df536616c04736d6c8"
+    url "https://files.pythonhosted.org/packages/83/ba/5faa1a27c7d19a3fdf1abd1657a0fdcaeb1aed043f29bad705205b4c5259/textual_enhanced-0.13.0.tar.gz"
+    sha256 "fcc63a43400de6057ce1906088c2323ca7853c09f34b6c242a5b3f72e8d4c11c"
   end
 
   resource "textual-fspicker" do
