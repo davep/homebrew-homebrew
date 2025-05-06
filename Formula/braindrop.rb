@@ -3,8 +3,8 @@ class Braindrop < Formula
 
   desc "A terminal-based client for raindrop.io"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/8e/89/0b3087e721e5064c9be44c76e4eabbe63242ff23a6a9f70d1fc0780e3a48/braindrop-0.8.0.tar.gz"
-  sha256 "9ffa2f736b443302646624194b42a2f224c30d6f87f17db2aec9be6ac407d130"
+  url "https://files.pythonhosted.org/packages/35/55/0d817c0b6ef908d7ffc58b503f963f4b3dcf25df977399c81a058aab34b3/braindrop-0.8.1.tar.gz"
+  sha256 "55f8f43837af8bd6edd0d010f175bd25b6469102b8e36887bb9c56b7b3ab230f"
 
   depends_on "python3"
 
@@ -94,8 +94,8 @@ class Braindrop < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/d2/c9/b36f65d15452bdca2b186526262ce8759ee8089ae76c3cc8e3fe303cc527/textual-3.1.1.tar.gz"
-    sha256 "cfb40a820edf77cae1c11fa15056d9e1a731c7bcbc6ab293aafcc139a4e46b6a"
+    url "https://files.pythonhosted.org/packages/34/99/8408761a1a1076b2bb69d4859ec110d74be7515552407ac1cb6b68630eb6/textual-3.2.0.tar.gz"
+    sha256 "d2f3b0c39e02535bb5f2aec1c45e10bd3ee7508ed1e240b7505c3cf02a6f00ed"
   end
 
   resource "textual-enhanced" do
