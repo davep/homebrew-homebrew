@@ -3,8 +3,8 @@ class Braindrop < Formula
 
   desc "A terminal-based client for raindrop.io"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/35/55/0d817c0b6ef908d7ffc58b503f963f4b3dcf25df977399c81a058aab34b3/braindrop-0.8.1.tar.gz"
-  sha256 "55f8f43837af8bd6edd0d010f175bd25b6469102b8e36887bb9c56b7b3ab230f"
+  url "https://files.pythonhosted.org/packages/6e/46/19326b69dc96cb6b7133a1128ea112f2716eb3db8cb100c976a7d8b321a4/braindrop-0.8.2.tar.gz"
+  sha256 "cfb2d6bec4e92c360f8c9bca4b5b0efe9c99b6c9e62009e5c73e3dc3bdcb2c4c"
 
   depends_on "python3"
 
@@ -64,8 +64,8 @@ class Braindrop < Formula
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/b6/2d/7d512a3913d60623e7eb945c6d1b4f0bddf1d0b7ada5225274c87e5b53d1/platformdirs-4.3.7.tar.gz"
-    sha256 "eb437d586b6a0986388f0d6f74aa0cde27b48d0e3d66843640bfb6bdcdb6e351"
+    url "https://files.pythonhosted.org/packages/fe/8b/3c73abc9c759ecd3f1f7ceff6685840859e8070c4d947c93fae71f6a0bf2/platformdirs-4.3.8.tar.gz"
+    sha256 "3d512d96e16bcb959a814c9f348431070822a6496326a4be0911c40b5a74c2bc"
   end
 
   resource "Pygments" do
