@@ -3,8 +3,8 @@ class Peplum < Formula
 
   desc "The TUI PEP lookup manager for your terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/16/bf/8fd69a144cd5fab2a6c2e2361e34ea1f2f7f5e6d17a401ab54dfd51df070/peplum-1.0.0.tar.gz"
-  sha256 "04765d26baf5bacb1a06fea07bc76559f3fe8379a78b9f7a4b89ad7cd486ea6e"
+  url "https://files.pythonhosted.org/packages/1d/27/c0dc9db5ede9fa1c0ffca286a40e25bec6ef3dc82780383108eb969ded0e/peplum-1.0.1.tar.gz"
+  sha256 "e3b3859fde4ab07047d5c5a1c01da5e5e920233780adc5e298f03e9f377a88cd"
 
   depends_on "python3"
 
@@ -69,8 +69,8 @@ class Peplum < Formula
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/b6/2d/7d512a3913d60623e7eb945c6d1b4f0bddf1d0b7ada5225274c87e5b53d1/platformdirs-4.3.7.tar.gz"
-    sha256 "eb437d586b6a0986388f0d6f74aa0cde27b48d0e3d66843640bfb6bdcdb6e351"
+    url "https://files.pythonhosted.org/packages/fe/8b/3c73abc9c759ecd3f1f7ceff6685840859e8070c4d947c93fae71f6a0bf2/platformdirs-4.3.8.tar.gz"
+    sha256 "3d512d96e16bcb959a814c9f348431070822a6496326a4be0911c40b5a74c2bc"
   end
 
   resource "Pygments" do
