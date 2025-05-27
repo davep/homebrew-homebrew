@@ -3,8 +3,8 @@ class Ng2web < Formula
 
   desc "Command line tool for converting Norton Guide Database files to HTML"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/be/2b/3f55899391197ffd211162e750062e9628ce4fab01a44a18db055d89bbda/ng2web-1.0.0.tar.gz"
-  sha256 "1e68cc125059bcc980b3daa2414ee16bc4b36bd62ff3438345e2fd1c5ec82aa6"
+  url "https://files.pythonhosted.org/packages/ac/60/1f33fb7a080034008f51c98816f15601075b2f625ead0917d5fea2008155/ng2web-1.0.1.tar.gz"
+  sha256 "6fbe34464a012b1ed21da7e7695c27fb454ea00959ba1ef65a18effefbb3946b"
 
   depends_on "python3"
 
@@ -24,8 +24,8 @@ class Ng2web < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz"
-    sha256 "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
+    url "https://files.pythonhosted.org/packages/f6/37/23083fcd6e35492953e8d2aaaa68b860eb422b34627b13f2ce3eb6106061/typing_extensions-4.13.2.tar.gz"
+    sha256 "e6c81219bd689f51865d9e372991c540bda33a0379d5573cddb9a3a23f7caaef"
   end
 
   def install
