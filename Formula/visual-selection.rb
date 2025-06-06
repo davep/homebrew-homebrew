@@ -2,9 +2,9 @@ class VisualSelection < Formula
   include Language::Python::Virtualenv
 
   desc "A terminal-based visualisation of natural selection with mutation."
-  homepage "https://github.com/davep/visual-selection"
-  url "https://files.pythonhosted.org/packages/31/fb/f2fa123ef5144935f2aeec941f7fdd485a446fd6ce1a334964004b25cf66/visual-selection-0.2.1.tar.gz"
-  sha256 "2e6cd8d24259fc0da5454a1bde7050ca5b63de3b3f643c4c38d472bea62c2966"
+  homepage "None"
+  url "https://files.pythonhosted.org/packages/f6/71/8fd27817285aca6e23d410ea474fe23c240a1a41d9a25123483eadb616fa/visual_selection-1.0.0.tar.gz"
+  sha256 "b22e77b303f47495cd56111d560fecc8ab49068b14b7455a88746caa0a39fe96"
 
   depends_on "python3"
 
@@ -19,8 +19,8 @@ class VisualSelection < Formula
   end
 
   resource "mdit-py-plugins" do
-    url "https://files.pythonhosted.org/packages/b4/db/61960d68d5c39ff0dd48cb799a39ae4e297f6e9b96bf2f8da29d897fba0c/mdit_py_plugins-0.4.0.tar.gz"
-    sha256 "d8ab27e9aed6c38aa716819fedfde15ca275715955f8a185a8e1cf90fb1d2c1b"
+    url "https://files.pythonhosted.org/packages/19/03/a2ecab526543b152300717cf232bb4bb8605b6edb946c845016fa9c9c9fd/mdit_py_plugins-0.4.2.tar.gz"
+    sha256 "5f2cd1fdb606ddf152d37ec30e46101a60512bc0e5fa1a7002c36647b09e26b5"
   end
 
   resource "mdurl" do
@@ -28,34 +28,39 @@ class VisualSelection < Formula
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
   end
 
+  resource "platformdirs" do
+    url "https://files.pythonhosted.org/packages/fe/8b/3c73abc9c759ecd3f1f7ceff6685840859e8070c4d947c93fae71f6a0bf2/platformdirs-4.3.8.tar.gz"
+    sha256 "3d512d96e16bcb959a814c9f348431070822a6496326a4be0911c40b5a74c2bc"
+  end
+
   resource "plotext" do
-    url "https://files.pythonhosted.org/packages/27/d7/58f5ec766e41f8338f04ec47dbd3465db04fbe2a6107bca5f0670ced253a/plotext-5.2.8.tar.gz"
-    sha256 "319a287baabeb8576a711995f973a2eba631c887aa6b0f33ab016f12c50ffebe"
+    url "https://files.pythonhosted.org/packages/c9/d7/f75f397af966fe252d0d34ffd3cae765317fce2134f925f95e7d6725d1ce/plotext-5.3.2.tar.gz"
+    sha256 "52d1e932e67c177bf357a3f0fe6ce14d1a96f7f7d5679d7b455b929df517068e"
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz"
-    sha256 "da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367"
+    url "https://files.pythonhosted.org/packages/7c/2d/c3338d48ea6cc0feb8446d8e6937e1408088a72a39937982cc6111d17f84/pygments-2.19.1.tar.gz"
+    sha256 "61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f"
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/b3/01/c954e134dc440ab5f96952fe52b4fdc64225530320a910473c1fe270d9aa/rich-13.7.1.tar.gz"
-    sha256 "9be308cb1fe2f1f57d67ce99e95af38a1e2bc71ad9813b0e247cf7ffbcc3a432"
+    url "https://files.pythonhosted.org/packages/a1/53/830aa4c3066a8ab0ae9a9955976fb770fe9c6102117c8ec4ab3ea62d89e8/rich-14.0.0.tar.gz"
+    sha256 "82f1bc23a6a21ebca4ae0c45af9bdbc492ed20231dcb63f297d6d1021a9d5725"
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/59/f4/3df30a59ae3fe915c4311a93646fc184be19999e6e5d828831d4cfe53851/textual-0.53.1.tar.gz"
-    sha256 "23ba673be7974819ded35ea88d28df7117987e53d58f15b2cc890ac2ecf56401"
+    url "https://files.pythonhosted.org/packages/6d/96/02751746cf6950e9e8968186cb42eed1e52d91e2c80cc52bb19589e25900/textual-3.3.0.tar.gz"
+    sha256 "aa162b92dde93c5231e3689cdf26b141e86a77ac0a5ba96069bc9547e44119ae"
   end
 
   resource "textual-plotext" do
-    url "https://files.pythonhosted.org/packages/6d/bf/195b67009154bb9eceb02028fb50fb39ab6a81b628b9451397fa9b0c7da6/textual_plotext-0.2.1.tar.gz"
-    sha256 "bc6f2d75d8e20dda6321f8254dc3decda8f41f60e6e70a3ddd83b652b890c081"
+    url "https://files.pythonhosted.org/packages/9a/b0/e4e0f38df057db778252db0dd2c08522d7222b8537b6a0181d797b9044bd/textual_plotext-1.0.1.tar.gz"
+    sha256 "836f53a3316756609e194129a35c2875638e7958c261f541e0a794f7c98011be"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz"
-    sha256 "b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb"
+    url "https://files.pythonhosted.org/packages/d1/bc/51647cd02527e87d05cb083ccc402f93e441606ff1f01739a62c8ad09ba5/typing_extensions-4.14.0.tar.gz"
+    sha256 "8676b788e32f02ab42d9e7c61324048ae4c6d844a399eebace3d4979d75ceef4"
   end
 
   resource "uc-micro-py" do
