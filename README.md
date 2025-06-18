@@ -13,14 +13,20 @@ will also document this process in their own README.
 
 Packages available from here include:
 
+- [aging](https://github.com/davep/aging)
+- [bird2glass](https://github.com/davep/bird2glass)
+- [braindrop](https://github.com/davep/braindrop)
+- [complexitty](https://github.com/davep/complexitty)
 - [evernote2md](https://github.com/davep/evernote2md)
 - [evolve-words](https://github.com/davep/evolve-words)
+- [hike](https://github.com/davep/hike)
 - [journey2md](https://github.com/davep/journey2md)
 - [natter](https://github.com/davep/natter)
 - [ng2web](https://github.com/davep/ng2web)
-- [paindrop](https://github.com/davep/paindrop)
-- [PISpy](https://github.com/davep/pispy)
 - [OSHit](https://github.com/davep/oshit)
+- [paindrop](https://github.com/davep/paindrop)
+- [peplum](https://github.com/davep/peplum)
+- [PISpy](https://github.com/davep/pispy)
 - [Quizzical](https://github.com/davep/quizzical)
 - [tdim](https://github.com/davep/tdim)
 - [textual-mandelbrot](https://github.com/davep/textual-mandelbrot)
