@@ -2,9 +2,9 @@ class Oshit < Formula
   include Language::Python::Virtualenv
 
   desc "OSHit - Get your hit of the Orange Site in the terminal"
-  homepage "https://github.com/davep/oshit"
-  url "https://files.pythonhosted.org/packages/3c/34/56c034c6110d122261c59d013b31d788376eb191274ab789a8b4f91ce579/oshit-0.12.5.tar.gz"
-  sha256 "060cbf8ae15b44ed5f31c660ca279661f4fa7199b2a64292245e7c5195f84300"
+  homepage "None"
+  url "https://files.pythonhosted.org/packages/cd/eb/9e6860e0ce6b29fc0e2dac02e9a9b6012f06d840cf6d37e9ebd158e8553c/oshit-1.0.0.tar.gz"
+  sha256 "fcb7ca147345a92a99592dae31dfbd420364156297723566b5277660c9c684a3"
 
   depends_on "python3"
 
@@ -63,6 +63,11 @@ class Oshit < Formula
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
   end
 
+  resource "platformdirs" do
+    url "https://files.pythonhosted.org/packages/f5/52/0763d1d976d5c262df53ddda8d8d4719eedf9594d046f117c25a27261a19/platformdirs-4.2.2.tar.gz"
+    sha256 "38b7b51f512eed9e84a22788b4bce1de17c0adb134d6becb09836e37d8654cd3"
+  end
+
   resource "Pygments" do
     url "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz"
     sha256 "636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"
@@ -79,8 +84,8 @@ class Oshit < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/21/02/161d6e3dfd1d41ce5b53cee7a85cab0c6df6bacdda75f6c3a5c774beacef/textual-0.70.0.tar.gz"
-    sha256 "9ca3f615b5cf442246325e40ef8255424c42b4241d3c62f9c0f96951bab82b1e"
+    url "https://files.pythonhosted.org/packages/0c/63/16cdf4b9efb47366940d8315118c5c6dd6309f5eb2c159d7195b60e2e221/textual-3.5.0.tar.gz"
+    sha256 "c4a440338694672acf271c74904f1cf1e4a64c6761c056b02a561774b81a04f4"
   end
 
   resource "typing-extensions" do
