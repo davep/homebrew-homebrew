@@ -31,6 +31,12 @@ complexitty: clean
 	pipenv run poet -f $@ > Formula/$@.rb
 	sed -i '' 's/Shiny new formula/A simple Mandelbrot Set explorer for the terminal/' Formula/$@.rb
 
+.PHONY: dhv
+dhv: clean
+	pipenv install $@
+	pipenv run poet -f $@ > Formula/$@.rb
+	sed -i '' 's/Shiny new formula/A tool to dive into Python code/' Formula/$@.rb
+
 .PHONY: evernote2md
 evernote2md: clean
 	pipenv install $@
