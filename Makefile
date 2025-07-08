@@ -4,7 +4,7 @@ export PIPENV_VENV_IN_PROJECT=true
 clean:
 	rm -rf .venv
 	rm -f Pipfile Pipfile.lock
-	pipenv --python 3.12
+	pipenv --python 3.13
 	pipenv install --dev homebrew-pypi-poet
 
 .PHONY: aging
