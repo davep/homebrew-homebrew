@@ -3,8 +3,8 @@ class Dhv < Formula
 
   desc "A tool to dive into Python code"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/6e/b1/57b7e0072d5cbf66178baa46ea2c8920afc1624102ef3c1c1edba20b09fa/dhv-0.1.1.tar.gz"
-  sha256 "99e4b69de5b75c0b56052e0c657483eb1d649586c7413d62fb8872378c34e96e"
+  url "https://files.pythonhosted.org/packages/55/3e/b4cbb83d7bbc2d65ee45af691c6b15233b6a322f402e245ca46c108a3139/dhv-0.2.0.tar.gz"
+  sha256 "f118bd65eb565e1b4e450c3f737b22d90c5613c6734fb3da02aa1c9f5122bfb2"
 
   depends_on "python3"
 
