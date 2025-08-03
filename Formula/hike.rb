@@ -3,8 +3,8 @@ class Hike < Formula
 
   desc "A Markdown browser for the terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/7e/81/27b0fe6337e58522bdbb84c78944c0872e9fb17f3a55f905b4ab17400866/hike-1.1.0.tar.gz"
-  sha256 "31fb1abdb1cf6c6306501fb5df81c509a35def9ecee6b65cd7b758658ea29914"
+  url "https://files.pythonhosted.org/packages/44/93/12bdc4d527098eaa5258bdf2c99ea978a5ea002dd64939991f24bbe46edb/hike-1.1.1.tar.gz"
+  sha256 "48985f7237f7cff6c263ae15da740c1e48d9d0b2e3185191e4568660c5374757"
 
   depends_on "python3"
 
@@ -14,8 +14,8 @@ class Hike < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/de/8a/c729b6b60c66a38f590c4e774decc4b2ec7b0576be8f1aa984a53ffa812a/certifi-2025.7.9.tar.gz"
-    sha256 "c1d2ec05395148ee10cf672ffc28cd37ea0ab0d99f9cc74c43e588cbd111b079"
+    url "https://files.pythonhosted.org/packages/dc/67/960ebe6bf230a96cda2e0abcf73af550ec4f090005363542f0765df162e0/certifi-2025.8.3.tar.gz"
+    sha256 "e564105f78ded564e3ae7c923924435e1daa7463faeab5bb932bc53ffae63407"
   end
 
   resource "h11" do
@@ -74,8 +74,8 @@ class Hike < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/a1/53/830aa4c3066a8ab0ae9a9955976fb770fe9c6102117c8ec4ab3ea62d89e8/rich-14.0.0.tar.gz"
-    sha256 "82f1bc23a6a21ebca4ae0c45af9bdbc492ed20231dcb63f297d6d1021a9d5725"
+    url "https://files.pythonhosted.org/packages/fe/75/af448d8e52bf1d8fa6a9d089ca6c07ff4453d86c65c145d0a300bb073b9b/rich-14.1.0.tar.gz"
+    sha256 "e497a48b844b0320d45007cdebfeaeed8db2a4f4bcf49f15e455cfc4af11eaa8"
   end
 
   resource "sniffio" do
@@ -84,8 +84,8 @@ class Hike < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/af/83/c99c252c3fad2f7010ceb476a31af042eec71da441ffeef75bb590bc2e9e/textual-3.7.1.tar.gz"
-    sha256 "a76ba0c8a6c194ef24fd5c3681ebfddca55e7127c064a014128c84fbd7f5d271"
+    url "https://files.pythonhosted.org/packages/f1/22/a2812ab1e5b0cb3a327a4ea79b430234c2271ba13462b989f435b40a247d/textual-4.0.0.tar.gz"
+    sha256 "1cab4ea3cfc0e47ae773405cdd6bc2a17ed76ff7b648379ac8017ea89c5ad28c"
   end
 
   resource "textual-enhanced" do
