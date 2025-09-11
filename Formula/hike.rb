@@ -3,8 +3,8 @@ class Hike < Formula
 
   desc "A Markdown browser for the terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/8b/1d/a84dc0b3776ddfcf3a1549a9f0a588b863efcf4e2d4a5f0c86ce2eda17f1/hike-1.1.4.tar.gz"
-  sha256 "7ec6e8db302d74bd09bddf8e876b243565f599158a7a2ba2b6b2d69ee2e2ed8e"
+  url "https://files.pythonhosted.org/packages/a7/72/74cff1083d11745e0ced9fa3284dd1f3a4ac712f894b810c39fcbfc28057/hike-1.2.0.tar.gz"
+  sha256 "4bad04c60d5ce41551f36766399823450de560b384aea92fbf7a722a45c2969a"
 
   depends_on "python3"
 
