@@ -3,14 +3,14 @@ class Braindrop < Formula
 
   desc "A terminal-based client for raindrop.io"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/f7/56/5477d279f26e88f1b93ab1a1abd5b1c581f787f5aeb4aa038b7dfe8424e2/braindrop-0.10.0.tar.gz"
-  sha256 "5c86d7627d25bbdc1ae2abf4d07b55dd601c4af157d26e86185d4269528c5fcb"
+  url "https://files.pythonhosted.org/packages/9a/50/c5edd93bf47c17e9e8f8066f418546483a80601dfa6d4e1a643e2b11bcea/braindrop-0.11.0.tar.gz"
+  sha256 "e2c9244d3725dec0f52bab81436393601ce2c43c86f5b631d1af8023c62f4894"
 
   depends_on "python3"
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/f1/b4/636b3b65173d3ce9a38ef5f0522789614e590dab6a8d505340a4efe4c567/anyio-4.10.0.tar.gz"
-    sha256 "3f3fae35c96039744587aa5b8371e7e8e603c0702999535961dd336026973ba6"
+    url "https://files.pythonhosted.org/packages/c6/78/7d432127c41b50bccba979505f272c16cbcadcc33645d5fa3a738110ae75/anyio-4.11.0.tar.gz"
+    sha256 "82a8d0b81e318cc5ce71a5f1f8b5c4e63619620b63141ef8c995fa0db95a57c4"
   end
 
   resource "certifi" do
@@ -74,8 +74,8 @@ class Braindrop < Formula
   end
 
   resource "pyperclip" do
-    url "https://files.pythonhosted.org/packages/30/23/2f0a3efc4d6a32f3b63cdff36cd398d9701d26cda58e3ab97ac79fb5e60d/pyperclip-1.9.0.tar.gz"
-    sha256 "b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310"
+    url "https://files.pythonhosted.org/packages/15/99/25f4898cf420efb6f45f519de018f4faea5391114a8618b16736ef3029f1/pyperclip-1.10.0.tar.gz"
+    sha256 "180c8346b1186921c75dfd14d9048a6b5d46bfc499778811952c6dd6eb1ca6be"
   end
 
   resource "pytz" do
@@ -99,8 +99,8 @@ class Braindrop < Formula
   end
 
   resource "textual-enhanced" do
-    url "https://files.pythonhosted.org/packages/83/ba/5faa1a27c7d19a3fdf1abd1657a0fdcaeb1aed043f29bad705205b4c5259/textual_enhanced-0.13.0.tar.gz"
-    sha256 "fcc63a43400de6057ce1906088c2323ca7853c09f34b6c242a5b3f72e8d4c11c"
+    url "https://files.pythonhosted.org/packages/68/4a/31e14a619a3030eca07fde8301f3ff708b687c068813a428d51586a2b35d/textual_enhanced-1.0.0.tar.gz"
+    sha256 "d2cfd128e5c0bae7a6b5c510a82b7cba4f6555bcedf8e75c6e3ea7949dd86d49"
   end
 
   resource "typing-extensions" do
