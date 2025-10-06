@@ -3,8 +3,8 @@ class Ng2web < Formula
 
   desc "Command line tool for converting Norton Guide Database files to HTML"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/ac/60/1f33fb7a080034008f51c98816f15601075b2f625ead0917d5fea2008155/ng2web-1.0.1.tar.gz"
-  sha256 "6fbe34464a012b1ed21da7e7695c27fb454ea00959ba1ef65a18effefbb3946b"
+  url "https://files.pythonhosted.org/packages/6b/29/6995097a2032d955c79d89a44ea8ed7370ec58c98f5704f438aa1185d906/ng2web-1.1.0.tar.gz"
+  sha256 "ca5a6b1ff0545dec3ffa39c216c261214da9c5ed88bf979dfb703e8f69cbf390"
 
   depends_on "python3"
 
@@ -14,18 +14,18 @@ class Ng2web < Formula
   end
 
   resource "MarkupSafe" do
-    url "https://files.pythonhosted.org/packages/b2/97/5d42485e71dfc078108a86d6de8fa46db44a1a9295e89c5d6d4a06e23a62/markupsafe-3.0.2.tar.gz"
-    sha256 "ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0"
+    url "https://files.pythonhosted.org/packages/7e/99/7690b6d4034fffd95959cbe0c02de8deb3098cc577c67bb6a24fe5d7caa7/markupsafe-3.0.3.tar.gz"
+    sha256 "722695808f4b6457b320fdc131280796bdceb04ab50fe1795cd540799ebe1698"
   end
 
   resource "ngdb" do
-    url "https://files.pythonhosted.org/packages/77/4d/57de832c92f193a0c425fe0c8c58275a8fa364b168ae0913f43b806ec21e/ngdb-0.12.0.tar.gz"
-    sha256 "9c1ef674f3cbd5d645df9b4e4f2a40a5e483128aeb927d80de9aec39bda61e1a"
+    url "https://files.pythonhosted.org/packages/8b/26/5723c55e5c4b12ffded93b30bb3cb6122be499efa21c69bf6c2383907e56/ngdb-1.1.0.tar.gz"
+    sha256 "c89b251e6fcd6a09a6236d978dc63989f705f2d022d8dfd509751527cb63df72"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/f6/37/23083fcd6e35492953e8d2aaaa68b860eb422b34627b13f2ce3eb6106061/typing_extensions-4.13.2.tar.gz"
-    sha256 "e6c81219bd689f51865d9e372991c540bda33a0379d5573cddb9a3a23f7caaef"
+    url "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz"
+    sha256 "0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"
   end
 
   def install
