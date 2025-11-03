@@ -94,8 +94,8 @@ class Braindrop < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/ff/51/51a0863339c4c3fa204f43044e52dfd688a7ee2ba2c987e021acc9583a42/textual-6.3.0.tar.gz"
-    sha256 "a89c557fa740611551dcf4f93643f33853eca488183ef5882200dde8e94315e8"
+    url "https://files.pythonhosted.org/packages/af/90/59757aa887ddcea61428820274f1a2d1f986feb7880374a5420ab5d37132/textual-6.5.0.tar.gz"
+    sha256 "e5f152cdd47db48a635d23b839721bae4d0e8b6d855e3fede7285218289294e3"
   end
 
   resource "textual-enhanced" do
