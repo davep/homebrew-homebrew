@@ -3,14 +3,14 @@ class Aging < Formula
 
   desc "A Norton Guide reader for the terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/23/9c/d0edaeea4fa204a723c232fbce5b4e57c73302140a7236039697e704e869/aging-1.0.0.tar.gz"
-  sha256 "20f677925d8664d20c25a7b651e29abb4880f9b88bcb7eab2ef2d6c35a0875d4"
+  url "https://files.pythonhosted.org/packages/c3/0a/5dd3db287d144d54f482c182ed38ec96846d8f3d806c752e3682b2d3da52/aging-1.1.0.tar.gz"
+  sha256 "25b17403db36cc38babea660988fe9471dc64a2dee5fcb84ed7db48855cfc585"
 
   depends_on "python3"
 
   resource "humanize" do
-    url "https://files.pythonhosted.org/packages/22/d1/bbc4d251187a43f69844f7fd8941426549bbe4723e8ff0a7441796b0789f/humanize-4.12.3.tar.gz"
-    sha256 "8430be3a615106fdfceb0b2c1b41c4c98c6b0fc5cc59663a5539b111dd325fb0"
+    url "https://files.pythonhosted.org/packages/b6/43/50033d25ad96a7f3845f40999b4778f753c3901a11808a584fed7c00d9f5/humanize-4.14.0.tar.gz"
+    sha256 "2fa092705ea640d605c435b1ca82b2866a1b601cdf96f076d70b79a855eba90d"
   end
 
   resource "linkify-it-py" do
@@ -19,13 +19,13 @@ class Aging < Formula
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/38/71/3b932df36c1a044d397a1f92d1cf91ee0a503d91e470cbd670aa66b07ed0/markdown-it-py-3.0.0.tar.gz"
-    sha256 "e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb"
+    url "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz"
+    sha256 "cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3"
   end
 
   resource "mdit-py-plugins" do
-    url "https://files.pythonhosted.org/packages/19/03/a2ecab526543b152300717cf232bb4bb8605b6edb946c845016fa9c9c9fd/mdit_py_plugins-0.4.2.tar.gz"
-    sha256 "5f2cd1fdb606ddf152d37ec30e46101a60512bc0e5fa1a7002c36647b09e26b5"
+    url "https://files.pythonhosted.org/packages/b2/fd/a756d36c0bfba5f6e39a1cdbdbfdd448dc02692467d83816dff4592a1ebc/mdit_py_plugins-0.5.0.tar.gz"
+    sha256 "f4918cb50119f50446560513a8e311d574ff6aaed72606ddae6d35716fe809c6"
   end
 
   resource "mdurl" do
@@ -34,48 +34,48 @@ class Aging < Formula
   end
 
   resource "ngdb" do
-    url "https://files.pythonhosted.org/packages/77/4d/57de832c92f193a0c425fe0c8c58275a8fa364b168ae0913f43b806ec21e/ngdb-0.12.0.tar.gz"
-    sha256 "9c1ef674f3cbd5d645df9b4e4f2a40a5e483128aeb927d80de9aec39bda61e1a"
+    url "https://files.pythonhosted.org/packages/8b/26/5723c55e5c4b12ffded93b30bb3cb6122be499efa21c69bf6c2383907e56/ngdb-1.1.0.tar.gz"
+    sha256 "c89b251e6fcd6a09a6236d978dc63989f705f2d022d8dfd509751527cb63df72"
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/fe/8b/3c73abc9c759ecd3f1f7ceff6685840859e8070c4d947c93fae71f6a0bf2/platformdirs-4.3.8.tar.gz"
-    sha256 "3d512d96e16bcb959a814c9f348431070822a6496326a4be0911c40b5a74c2bc"
+    url "https://files.pythonhosted.org/packages/61/33/9611380c2bdb1225fdef633e2a9610622310fed35ab11dac9620972ee088/platformdirs-4.5.0.tar.gz"
+    sha256 "70ddccdd7c99fc5942e9fc25636a8b34d04c24b335100223152c2803e4063312"
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/7c/2d/c3338d48ea6cc0feb8446d8e6937e1408088a72a39937982cc6111d17f84/pygments-2.19.1.tar.gz"
-    sha256 "61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f"
+    url "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz"
+    sha256 "636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"
   end
 
   resource "pyperclip" do
-    url "https://files.pythonhosted.org/packages/30/23/2f0a3efc4d6a32f3b63cdff36cd398d9701d26cda58e3ab97ac79fb5e60d/pyperclip-1.9.0.tar.gz"
-    sha256 "b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310"
+    url "https://files.pythonhosted.org/packages/e8/52/d87eba7cb129b81563019d1679026e7a112ef76855d6159d24754dbd2a51/pyperclip-1.11.0.tar.gz"
+    sha256 "244035963e4428530d9e3a6101a1ef97209c6825edab1567beac148ccc1db1b6"
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/a1/53/830aa4c3066a8ab0ae9a9955976fb770fe9c6102117c8ec4ab3ea62d89e8/rich-14.0.0.tar.gz"
-    sha256 "82f1bc23a6a21ebca4ae0c45af9bdbc492ed20231dcb63f297d6d1021a9d5725"
+    url "https://files.pythonhosted.org/packages/fb/d2/8920e102050a0de7bfabeb4c4614a49248cf8d5d7a8d01885fbb24dc767a/rich-14.2.0.tar.gz"
+    sha256 "73ff50c7c0c1c77c8243079283f4edb376f0f6442433aecb8ce7e6d0b92d1fe4"
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/1b/cf/b4a02ae702ccb3ba0e5de0aaf3197f95585f480ce9f6ed0a5936f6eb2609/textual-3.4.0.tar.gz"
-    sha256 "f697c3b9371bbc30c11453a094d700e95cf7c2115f68bad35f0249de67996c99"
+    url "https://files.pythonhosted.org/packages/ab/00/9520327698acb6d8ae120b311ef1901840d55a6c41580e377f36261daf7a/textual-6.7.1.tar.gz"
+    sha256 "2a5acb0ab316a7ba9e74b0a291fab8933d681d7cf6f4e1eeb45c39a731b094cf"
   end
 
   resource "textual-enhanced" do
-    url "https://files.pythonhosted.org/packages/83/ba/5faa1a27c7d19a3fdf1abd1657a0fdcaeb1aed043f29bad705205b4c5259/textual_enhanced-0.13.0.tar.gz"
-    sha256 "fcc63a43400de6057ce1906088c2323ca7853c09f34b6c242a5b3f72e8d4c11c"
+    url "https://files.pythonhosted.org/packages/7b/42/9b1f40a41d59178d66ad28150b08d55ca5fe791be63ca6e63c3322c52608/textual_enhanced-1.1.0.tar.gz"
+    sha256 "94e4f9c05a64efda178f835b141a8d864a3c4b3bc8232a515d85aae6b61113c6"
   end
 
   resource "textual-fspicker" do
-    url "https://files.pythonhosted.org/packages/a4/b0/5f895b15562064ef473bc1e882b6dfb1df4c29fd3259ba09aae481e289a6/textual_fspicker-0.4.1.tar.gz"
-    sha256 "94815262c12d38b69ccba85804d334b998f90ebda7c43d362e9665e59d72cb87"
+    url "https://files.pythonhosted.org/packages/15/2e/8c1ae6f0c26af2fe0c49d61d42c91d0077cbfd984df049d7e3d82a40d93d/textual_fspicker-0.6.0.tar.gz"
+    sha256 "0da0e3f35025f72c5b90557d12777c9f67c674470b3263cbe2c2de38f5b70c3c"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/d1/bc/51647cd02527e87d05cb083ccc402f93e441606ff1f01739a62c8ad09ba5/typing_extensions-4.14.0.tar.gz"
-    sha256 "8676b788e32f02ab42d9e7c61324048ae4c6d844a399eebace3d4979d75ceef4"
+    url "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz"
+    sha256 "0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"
   end
 
   resource "uc-micro-py" do
