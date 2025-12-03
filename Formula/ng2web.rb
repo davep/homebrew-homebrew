@@ -3,8 +3,8 @@ class Ng2web < Formula
 
   desc "Command line tool for converting Norton Guide Database files to HTML"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/6b/29/6995097a2032d955c79d89a44ea8ed7370ec58c98f5704f438aa1185d906/ng2web-1.1.0.tar.gz"
-  sha256 "ca5a6b1ff0545dec3ffa39c216c261214da9c5ed88bf979dfb703e8f69cbf390"
+  url "https://files.pythonhosted.org/packages/c6/9e/b4d53e676308c79c3c471dd0a9b9eb1711497586bf4737644c06209dd036/ng2web-1.3.0.tar.gz"
+  sha256 "f258dd4dddd94b173319c567144fbc7c960720795ceaa07e73016940284b6635"
 
   depends_on "python3"
 
