@@ -3,8 +3,8 @@ class Aging < Formula
 
   desc "A Norton Guide reader for the terminal"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/c3/0a/5dd3db287d144d54f482c182ed38ec96846d8f3d806c752e3682b2d3da52/aging-1.1.0.tar.gz"
-  sha256 "25b17403db36cc38babea660988fe9471dc64a2dee5fcb84ed7db48855cfc585"
+  url "https://files.pythonhosted.org/packages/dc/e0/f4861f040f80bda1b5aa39ad71f6c94b9fed2cbf08349e20340af737099d/aging-1.1.1.tar.gz"
+  sha256 "0155819e73e0ebdd41d9bada4e34979dd88d26458f1be09147d8dfe7c571edea"
 
   depends_on "python3"
 
@@ -39,8 +39,8 @@ class Aging < Formula
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/61/33/9611380c2bdb1225fdef633e2a9610622310fed35ab11dac9620972ee088/platformdirs-4.5.0.tar.gz"
-    sha256 "70ddccdd7c99fc5942e9fc25636a8b34d04c24b335100223152c2803e4063312"
+    url "https://files.pythonhosted.org/packages/cf/86/0248f086a84f01b37aaec0fa567b397df1a119f73c16f6c7a9aac73ea309/platformdirs-4.5.1.tar.gz"
+    sha256 "61d5cdcc6065745cdd94f0f878977f8de9437be93de97c1c12f853c9c0cdcbda"
   end
 
   resource "Pygments" do
@@ -59,8 +59,8 @@ class Aging < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/ab/00/9520327698acb6d8ae120b311ef1901840d55a6c41580e377f36261daf7a/textual-6.7.1.tar.gz"
-    sha256 "2a5acb0ab316a7ba9e74b0a291fab8933d681d7cf6f4e1eeb45c39a731b094cf"
+    url "https://files.pythonhosted.org/packages/c8/8f/aeccf7459e3d71cbca912a27a97f1fcb00735326f90714d22fa540d3848e/textual-6.8.0.tar.gz"
+    sha256 "7efe618ec9197466b8fe536aefabb678edf30658b9dc58a763365d7daed12b62"
   end
 
   resource "textual-enhanced" do
