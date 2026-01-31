@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Workaround for https://github.com/pypa/hatch/pull/1999
+FIX='    ENV["SOURCE_DATE_EPOCH"] = "1451574000"'
+
+gsed -i "/virtualenv_install_with_resources/i \\$FIX" "$1"
+
+### fix-hatch ends here

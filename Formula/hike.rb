@@ -110,6 +110,7 @@ class Hike < Formula
 
   def install
     virtualenv_create(libexec, "python3")
+    ENV["SOURCE_DATE_EPOCH"] = "1451574000"
     virtualenv_install_with_resources
   end
 

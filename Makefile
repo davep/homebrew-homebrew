@@ -54,6 +54,7 @@ hike: clean
 	pipenv install $@
 	pipenv run poet -f $@ > Formula/$@.rb
 	sed -i '' 's/Shiny new formula/A Markdown browser for the terminal/' Formula/$@.rb
+	./fix-hatch "Formula/$@.rb"
 
 .PHONY: journey2md
 journey2md: clean
